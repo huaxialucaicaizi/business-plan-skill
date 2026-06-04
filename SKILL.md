@@ -12,6 +12,7 @@ Use this skill when the user asks to create, update, polish, adapt, or fill mate
 This skill supports:
 - 商业计划书、执行摘要、可行性报告
 - 路演 PPT 内容、页面标题、项目亮点
+- 调用 `codex-ppt` 将商业计划书转化为高颜值视觉版路演材料
 - 园区、孵化器、创业社区、政府项目申请材料
 - 企业（团队）介绍、核心成员简介、项目内容摘要
 - 市场背景、目标客户、竞品分析、产品定位、商业模式、竞争优势
@@ -58,6 +59,37 @@ Load only the reference needed for the task:
    - business plan: structured, detailed, evidence-oriented
    - short text box: copy-ready and within requested character limits
 
+## Pitch Deck Visual Workflow
+
+When the user asks for a good-looking PPT, visual pitch deck, investor deck, roadshow deck, or presentation based on the business plan, use `codex-ppt` when available.
+
+Recommended sequence:
+
+1. First use this business-plan skill to lock the deck narrative:
+   - cover and one-line positioning
+   - market background and pain point
+   - target customer and use case
+   - product workflow / demo logic
+   - business model
+   - market size
+   - competition and differentiation
+   - founder/team capability
+   - financial forecast
+   - roadmap and funding/resource request
+2. Compress each slide into one main claim, 2-4 support points, and a suggested visual form.
+3. Call `codex-ppt` to generate a polished 16:9 visual deck from the approved outline.
+4. After generation, review whether the deck covers:
+   - team capability
+   - business model
+   - competitive advantage
+   - market opportunity
+   - financial data
+5. If the target is an incubator or government park, make the visuals credible, concise, and application-friendly rather than overly marketing-like.
+
+Suggested user-facing prompt:
+
+> 调用商业计划书 skill 先整理路演逻辑，再调用 `codex-ppt` 输出一份高颜值 16:9 商业计划书 PPT，目标读者是 `[投资人/园区评委/合作伙伴]`，重点说服他们相信 `[项目名称]` 的市场机会、团队能力、商业模式和落地路径。
+
 ## Generic Positioning Template
 
 Use this as a starting point, then replace placeholders:
@@ -71,7 +103,7 @@ Chinese version:
 ## Deliverable Behavior
 
 - If creating/editing DOCX, XLSX, or PPTX, use relevant document, spreadsheet, presentation, or deck-generation skills when available.
+- If the user asks for a visually polished deck, explicitly use `codex-ppt` when available instead of only writing slide text.
 - For official application files, list which fields remain `待补充`.
 - For public templates, remove project-specific facts before finalizing.
 - For short requested copy, provide copy-ready text rather than a long explanation.
-
