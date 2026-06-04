@@ -1,0 +1,77 @@
+---
+name: business-plan-template
+description: Use when creating, adapting, or filling business-plan materials, pitch deck content, incubator applications, project introductions, founder/team sections, market and competitor analysis, business models, financial projections, fundraising plans, or official application forms for a startup or new venture. This skill provides a reusable structure and placeholder-based workflow rather than project-specific facts.
+---
+
+# Business Plan Template
+
+Use this skill when the user asks to create, update, polish, adapt, or fill materials for a startup, business project, incubator application, or pitch process.
+
+## Scope
+
+This skill supports:
+- 商业计划书、执行摘要、可行性报告
+- 路演 PPT 内容、页面标题、项目亮点
+- 园区、孵化器、创业社区、政府项目申请材料
+- 企业（团队）介绍、核心成员简介、项目内容摘要
+- 市场背景、目标客户、竞品分析、产品定位、商业模式、竞争优势
+- 财务预测、融资计划、里程碑、资源需求
+- Word / Excel / PPT 申请模板的内容填充
+
+## Privacy And Accuracy Rules
+
+- Do not invent names, IDs, phone numbers, emails, addresses, company registration numbers, legal entities, awards, patents, revenue, funding, or customer names.
+- If a field requires unknown personal, legal, financial, or registration information, write `待补充` or ask the user for it.
+- For public or GitHub-ready outputs, remove private facts and replace them with placeholders.
+- For official forms, preserve template structure and fill only relevant fields.
+- For project summaries in official materials, prefer objective third-person wording and avoid `我` / `我们` unless the field asks for a personal statement.
+- When using numbers, clearly distinguish actual data, estimates, assumptions, and placeholders.
+
+## What To Read
+
+Load only the reference needed for the task:
+
+- Overall business-plan structure, positioning, customer pain, market, product, roadmap, and finance assumptions: read `references/business-plan-core.md`.
+- Founder/team profile and competitive-advantage patterns: read `references/founder-and-advantage.md`.
+- Short application copy, official-form fields, and materials checklist wording: read `references/application-copy.md`.
+
+## Default Workflow
+
+1. Identify the target audience: investor, incubator reviewer, government park, partner, customer, or internal team.
+2. Clarify the venture type, target customers, key pain point, product/service, business model, and any known metrics.
+3. If facts are missing, use placeholders rather than inventing.
+4. Structure content around:
+   - pain point
+   - target customer
+   - solution
+   - product workflow
+   - market opportunity
+   - competition and differentiation
+   - team capability
+   - business model
+   - roadmap
+   - financial plan
+   - funding/resource request
+5. Adapt tone and length to the artifact:
+   - application form: concise, objective, policy-friendly
+   - pitch deck: sharp claims, visual page logic, investor-friendly
+   - business plan: structured, detailed, evidence-oriented
+   - short text box: copy-ready and within requested character limits
+
+## Generic Positioning Template
+
+Use this as a starting point, then replace placeholders:
+
+> `[Project Name]` is a `[product/service category]` for `[target customer]`, helping them solve `[specific high-pain problem]` through `[core technology/workflow]`, so they can achieve `[measurable business outcome]`.
+
+Chinese version:
+
+> `[项目名称]` 是面向 `[目标客户]` 的 `[产品/服务类型]`，通过 `[核心技术/工作流]` 解决 `[具体高痛点问题]`，帮助客户实现 `[可衡量业务结果]`。
+
+## Deliverable Behavior
+
+- If creating/editing DOCX, XLSX, or PPTX, use relevant document, spreadsheet, presentation, or deck-generation skills when available.
+- For official application files, list which fields remain `待补充`.
+- For public templates, remove project-specific facts before finalizing.
+- For short requested copy, provide copy-ready text rather than a long explanation.
+
