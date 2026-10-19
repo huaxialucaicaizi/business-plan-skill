@@ -1,6 +1,6 @@
 ---
-name: business-plan-template
-description: Use when creating, adapting, or filling business-plan materials, pitch deck content, incubator applications, project introductions, founder/team sections, market and competitor analysis, business models, financial projections, fundraising plans, or official application forms for a startup or new venture. This skill provides a reusable structure and placeholder-based workflow rather than project-specific facts.
+name: business-plan-skill
+description: Use when creating, adapting, or filling business-plan materials (商业计划书、BP、路演材料), pitch deck content, incubator applications (孵化器申请、创业大赛、园区申请), project introductions, founder/team sections, market and competitor analysis, business models, financial projections (财务预测、融资计划), or official application forms for a startup or new venture. This skill provides a reusable structure and placeholder-based workflow rather than project-specific facts.
 ---
 
 # Business Plan Template
