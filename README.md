@@ -1,5 +1,7 @@
 # Business Plan Skill / 商业计划书 Skill
 
+[![CI](https://github.com/huaxialucaicaizi/business-plan-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/huaxialucaicaizi/business-plan-skill/actions/workflows/ci.yml)
+
 **为初创项目和创业团队提供结构化、可复用的商业计划书、路演材料和孵化器申请文案工作流。**
 
 A structured, reusable workflow for creating business plans, pitch decks, and incubator applications for startups and entrepreneurial teams.

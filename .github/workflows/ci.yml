@@ -1,0 +1,138 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        pip install pyyaml
+    
+    - name: Validate SKILL.md frontmatter
+      run: |
+        python3 << 'EOF'
+        import yaml
+        import sys
+        import re
+
+        print("Validating SKILL.md frontmatter...")
+        
+        with open('SKILL.md', 'r') as f:
+            content = f.read()
+        
+        if not content.startswith('---'):
+            print("❌ SKILL.md must start with frontmatter")
+            sys.exit(1)
+        
+        parts = content.split('---', 2)
+        if len(parts) < 3:
+            print("❌ Invalid frontmatter format")
+            sys.exit(1)
+        
+        try:
+            frontmatter = yaml.safe_load(parts[1])
+        except yaml.YAMLError as e:
+            print(f"❌ Frontmatter YAML parse error: {e}")
+            sys.exit(1)
+        
+        # Check required fields
+        if 'name' not in frontmatter:
+            print("❌ Frontmatter missing 'name' field")
+            sys.exit(1)
+        
+        if 'description' not in frontmatter:
+            print("❌ Frontmatter missing 'description' field")
+            sys.exit(1)
+        
+        # Validate name format (kebab-case, alphanumeric + hyphens)
+        name = frontmatter['name']
+        if not re.match(r'^[a-z0-9]+(-[a-z0-9]+)*$', name):
+            print(f"❌ Skill name '{name}' must be lowercase kebab-case (alphanumeric + hyphens)")
+            sys.exit(1)
+        
+        # Check description length (Codex spec suggests keeping descriptions concise)
+        # Allow up to 500 characters as a reasonable limit
+        description = frontmatter['description']
+        if len(description) > 500:
+            print(f"⚠️  Warning: Description is {len(description)} characters (recommended max: 500)")
+            print("    Long descriptions may be truncated in skill lists")
+        
+        print(f"✅ SKILL.md frontmatter valid")
+        print(f"   - name: {name}")
+        print(f"   - description length: {len(description)} characters")
+        EOF
+    
+    - name: Validate agents/openai.yaml
+      run: |
+        python3 << 'EOF'
+        import yaml
+        import sys
+
+        print("Validating agents/openai.yaml...")
+        
+        try:
+            with open('agents/openai.yaml', 'r') as f:
+                config = yaml.safe_load(f)
+        except FileNotFoundError:
+            print("❌ agents/openai.yaml not found")
+            sys.exit(1)
+        except yaml.YAMLError as e:
+            print(f"❌ YAML parse error: {e}")
+            sys.exit(1)
+        
+        # Check for interface field
+        if 'interface' not in config:
+            print("❌ Missing 'interface' field")
+            sys.exit(1)
+        
+        interface = config['interface']
+        
+        # Check required interface subfields
+        required_fields = ['display_name', 'short_description', 'default_prompt']
+        missing_fields = [f for f in required_fields if f not in interface]
+        
+        if missing_fields:
+            print(f"❌ Missing required interface fields: {', '.join(missing_fields)}")
+            sys.exit(1)
+        
+        print("✅ agents/openai.yaml valid")
+        print(f"   - display_name: {interface['display_name']}")
+        print(f"   - short_description: {interface['short_description'][:50]}...")
+        EOF
+    
+    - name: Check markdown links
+      uses: lycheeverse/lychee-action@v1
+      with:
+        args: >-
+          --verbose
+          --no-progress
+          --max-retries 3
+          --retry-wait-time 2
+          --timeout 10
+          --accept 200,204,206,429
+          --exclude-mail
+          --exclude 'https://github.com/huaxialucaicaizi/business-plan-skill/(issues|discussions|security)'
+          --exclude 'https://linux.do'
+          --exclude 'https://t.me/'
+          --exclude 'https://clawhub.ai'
+          --exclude 'https://app.clawmama.run'
+          --exclude 'https://mp.weixin.qq.com'
+          '**/*.md'
+        fail: true
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

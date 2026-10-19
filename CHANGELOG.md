@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- CONTRIBUTING.md with guidelines for proposing scenarios, reporting issues, and submitting PRs
+- GitHub issue templates: new scenario and output problem reports
+- Pull request template with comprehensive checklist
+- SECURITY.md with private vulnerability reporting instructions
+- CODE_OF_CONDUCT.md (Contributor Covenant 2.1)
+- GitHub Actions CI workflow validating SKILL.md frontmatter, agents/openai.yaml, and markdown links
+- CI status badge in README
+
 ### Changed
 - Added codex-ppt installation instructions and attribution to [@ningzimu](https://github.com/ningzimu)
 - Replaced codex-ppt TODO sections in README.md with actual source and installation guide
