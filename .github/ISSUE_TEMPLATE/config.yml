@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/huaxialucaicaizi/business-plan-skill/discussions
+    about: General questions and discussions / 一般问题和讨论
+  - name: Security Issues
+    url: https://github.com/huaxialucaicaizi/business-plan-skill/security/advisories/new
+    about: Report security vulnerabilities privately / 私下报告安全漏洞
