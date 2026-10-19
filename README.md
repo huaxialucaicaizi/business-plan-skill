@@ -148,13 +148,34 @@ When you need a polished visual deck, use this skill first to organize the narra
 
 ### 如何获取 codex-ppt / Where to Get codex-ppt
 
-**TODO（待补充）：** `codex-ppt` 工具的安装方法和使用说明。
+`codex-ppt` 是由 [@ningzimu](https://github.com/ningzimu) 开发的第三方 Codex skill，用于将文章、报告、大纲等内容转换为整页图片式的演示文稿。
 
-如果你知道 `codex-ppt` 的获取方式，请在此处补充链接或安装说明。
+`codex-ppt` is a third-party Codex skill developed by [@ningzimu](https://github.com/ningzimu) that converts articles, reports, and outlines into image-based presentation slides.
 
-**TODO:** Installation and usage instructions for `codex-ppt`.
+**GitHub 仓库 / Repository:** https://github.com/ningzimu/codex-ppt-skill
 
-If you know where to get `codex-ppt`, please add a link or installation instructions here.
+**快速安装 / Quick Installation:**
+
+最简单的方式是直接让 Agent 帮你安装：
+
+The easiest way is to ask your Agent to install it:
+
+```text
+请帮我安装这个 codex-ppt skill，链接是：https://github.com/ningzimu/codex-ppt-skill
+```
+
+**手动安装到 Codex / Manual Installation for Codex:**
+
+```bash
+npx -y skills@latest add ningzimu/codex-ppt-skill \
+  --skill codex-ppt \
+  --agent codex \
+  --global
+```
+
+安装完成后重启 Codex 生效。更多安装方式和使用说明请查看 [codex-ppt-skill 官方文档](https://github.com/ningzimu/codex-ppt-skill#readme)。
+
+After installation, restart Codex. For more installation options and usage instructions, see the [official codex-ppt-skill documentation](https://github.com/ningzimu/codex-ppt-skill#readme).
 
 ---
 
