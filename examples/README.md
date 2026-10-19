@@ -1,0 +1,28 @@
+# 示例说明 / Example Notice
+
+**本目录所有内容均为虚构示例，仅用于演示商业计划书 skill 的使用方法。所有项目信息、数据、人物均为虚构，不代表任何真实项目或个人。**
+
+**All content in this directory is FICTIONAL and for demonstration purposes only. All project information, data, and individuals are fictional and do not represent any real projects or people.**
+
+---
+
+## 虚构项目背景
+
+**项目名称：** 智汇学伴（StudyPal AI）
+
+**项目定位：** 面向初高中学生的 AI 学习陪伴工具，通过对话式辅导和知识图谱分析，帮助学生理解概念、梳理知识体系、制定学习计划。
+
+**目标用户：** 初高中学生及家长
+
+**核心痛点：** 学生在课后遇到难题时，缺乏即时、耐心、个性化的辅导资源；传统线上题库只提供答案，不引导思考过程。
+
+**解决方案：** 智汇学伴通过自然语言对话引导学生自主思考，结合知识图谱诊断薄弱环节，提供学习路径建议和练习推荐。
+
+**当前阶段：** MVP 原型已完成，正在进行小范围用户测试。
+
+---
+
+本示例包含：
+1. `bp-outline.md` - 商业计划书大纲
+2. `incubator-application-summary.md` - 孵化器申请摘要（约 300 字）
+3. `pitch-deck-outline.md` - 路演 PPT 页面大纲
