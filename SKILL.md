@@ -63,6 +63,8 @@ Load only the reference needed for the task:
 
 When the user asks for a good-looking PPT, visual pitch deck, investor deck, roadshow deck, or presentation based on the business plan, use `codex-ppt` when available.
 
+**Note:** `codex-ppt` is a third-party skill by [@ningzimu](https://github.com/ningzimu). Installation: https://github.com/ningzimu/codex-ppt-skill
+
 Recommended sequence:
 
 1. First use this business-plan skill to lock the deck narrative:
