@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- 修复安装说明：移除不正确的 `$skill-installer` 命令格式，改为通过 Cursor Agent 安装的说明
+- 添加"验证安装"部分，提供简单的测试方法帮助用户确认 skill 是否正常加载
+- 移除失效的 OpenAI Codex 规范链接（该链接返回 308 重定向），改为描述性说明
+- 明确说明需要重启 Cursor IDE 才能使新 skill 生效
+- Added installation verification section with quick test method
+- Fixed installation instructions: removed incorrect `$skill-installer` command format, replaced with Cursor Agent installation guide
+- Removed broken OpenAI Codex specification link (returns 308 redirect), replaced with descriptive text
+- Clarified that Cursor IDE restart is required for new skills to take effect
+
 ### Added
 - CONTRIBUTING.md with guidelines for proposing scenarios, reporting issues, and submitting PRs
 - GitHub issue templates: new scenario and output problem reports

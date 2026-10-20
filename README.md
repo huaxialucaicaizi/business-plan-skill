@@ -38,16 +38,50 @@ cd .agents/skills
 git clone https://github.com/huaxialucaicaizi/business-plan-skill.git
 ```
 
-**方法 3：使用 Codex 内置安装器（如可用）**
+**方法 3：通过 Cursor Agent 安装**
 
-```bash
-# 在 Codex CLI 或 ChatGPT 中调用
-$skill-installer install business-plan-skill
+在 Cursor 中直接向 AI 助手提出请求：
+
+```
+请帮我安装这个 business-plan-skill，GitHub 链接是：
+https://github.com/huaxialucaicaizi/business-plan-skill
 ```
 
-安装完成后，Codex 会自动检测新技能。如果未显示，请重启 Codex。
+安装完成后，重启 Cursor IDE 使新技能生效。
 
-After installation, Codex will automatically detect the new skill. If it doesn't appear, restart Codex.
+After installation, restart Cursor IDE for the new skill to take effect.
+
+---
+
+### 验证安装 / Verify Installation
+
+安装完成并重启 Cursor 后，可以通过以下方式验证 skill 是否正常加载：
+
+After installation and restarting Cursor, verify the skill is loaded:
+
+**简单测试 / Quick Test:**
+
+在 Cursor 中向 AI 助手发送以下消息：
+
+Send this message to the AI assistant in Cursor:
+
+```
+请使用 business-plan-skill 帮我列出一份商业计划书应该包含的核心章节。
+```
+
+如果 AI 回复中提到了"项目定位"、"目标客户"、"痛点分析"、"解决方案"等结构化章节，说明 skill 已正常工作。
+
+If the AI responds with structured sections like "项目定位", "目标客户", "痛点分析", "解决方案", the skill is working correctly.
+
+**检查 skill 加载状态 / Check Skill Loading Status:**
+
+你也可以直接询问 AI：
+
+You can also ask the AI directly:
+
+```
+请确认 business-plan-skill 是否已加载。
+```
 
 ---
 
@@ -231,9 +265,9 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 致谢 / Acknowledgments
 
-本 skill 基于 OpenAI Codex 的 [agent skills 规范](https://developers.openai.com/codex/skills) 构建。
+本 skill 基于 Cursor 的 Agent Skills 能力构建，遵循 AI 助手技能开发的最佳实践。
 
-This skill is built based on OpenAI Codex's [agent skills specification](https://developers.openai.com/codex/skills).
+This skill is built using Cursor's Agent Skills capabilities, following best practices for AI assistant skill development.
 
 感谢所有使用、反馈和贡献的朋友。
 
