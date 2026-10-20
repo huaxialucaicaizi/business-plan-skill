@@ -38,32 +38,35 @@ cd .agents/skills
 git clone https://github.com/huaxialucaicaizi/business-plan-skill.git
 ```
 
-**方法 3：通过 Cursor Agent 安装**
+**方法 3：使用 Codex 内置安装器**
 
-在 Cursor 中直接向 AI 助手提出请求：
+在 Codex 中使用 `$skill-installer` 命令：
 
+```bash
+$skill-installer huaxialucaicaizi/business-plan-skill
 ```
-请帮我安装这个 business-plan-skill，GitHub 链接是：
-https://github.com/huaxialucaicaizi/business-plan-skill
-```
 
-安装完成后，重启 Cursor IDE 使新技能生效。
+Codex 会自动检测新安装的 skill。如果未显示，请重启 Codex。
 
-After installation, restart Cursor IDE for the new skill to take effect.
+Codex automatically detects newly installed skills. If one doesn't appear, restart Codex.
+
+**注：** 其他支持 Agent Skills 的工具（如 Cursor）也可以通过各自的方式安装此 skill。
+
+**Note:** Other tools that support Agent Skills (such as Cursor) can also install this skill through their respective methods.
 
 ---
 
 ### 验证安装 / Verify Installation
 
-安装完成并重启 Cursor 后，可以通过以下方式验证 skill 是否正常加载：
+安装完成后，Codex 会自动检测新 skill。可以通过以下方式验证是否正常加载：
 
-After installation and restarting Cursor, verify the skill is loaded:
+After installation, Codex automatically detects new skills. Verify it is loaded:
 
 **简单测试 / Quick Test:**
 
-在 Cursor 中向 AI 助手发送以下消息：
+在 Codex 中向 AI 助手发送以下消息：
 
-Send this message to the AI assistant in Cursor:
+Send this message to the AI assistant in Codex:
 
 ```
 请使用 business-plan-skill 帮我列出一份商业计划书应该包含的核心章节。
@@ -82,6 +85,10 @@ You can also ask the AI directly:
 ```
 请确认 business-plan-skill 是否已加载。
 ```
+
+**注：** 如果在其他支持 Agent Skills 的工具中使用，验证方法类似。
+
+**Note:** If using in other Agent Skills-compatible tools, the verification method is similar.
 
 ---
 
@@ -265,9 +272,9 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 致谢 / Acknowledgments
 
-本 skill 基于 Cursor 的 Agent Skills 能力构建，遵循 AI 助手技能开发的最佳实践。
+本 skill 基于 OpenAI Codex 的 [agent skills 规范](https://learn.chatgpt.com/docs/build-skills)构建。
 
-This skill is built using Cursor's Agent Skills capabilities, following best practices for AI assistant skill development.
+This skill is built based on OpenAI Codex's [agent skills specification](https://learn.chatgpt.com/docs/build-skills).
 
 感谢所有使用、反馈和贡献的朋友。
 
