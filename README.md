@@ -38,16 +38,57 @@ cd .agents/skills
 git clone https://github.com/huaxialucaicaizi/business-plan-skill.git
 ```
 
-**方法 3：使用 Codex 内置安装器（如可用）**
+**方法 3：使用 Codex 内置安装器**
+
+在 Codex 中使用 `$skill-installer` 命令：
 
 ```bash
-# 在 Codex CLI 或 ChatGPT 中调用
-$skill-installer install business-plan-skill
+$skill-installer huaxialucaicaizi/business-plan-skill
 ```
 
-安装完成后，Codex 会自动检测新技能。如果未显示，请重启 Codex。
+Codex 会自动检测新安装的 skill。如果未显示，请重启 Codex。
 
-After installation, Codex will automatically detect the new skill. If it doesn't appear, restart Codex.
+Codex automatically detects newly installed skills. If one doesn't appear, restart Codex.
+
+**注：** 其他支持 Agent Skills 的工具（如 Cursor）也可以通过各自的方式安装此 skill。
+
+**Note:** Other tools that support Agent Skills (such as Cursor) can also install this skill through their respective methods.
+
+---
+
+### 验证安装 / Verify Installation
+
+安装完成后，Codex 会自动检测新 skill。可以通过以下方式验证是否正常加载：
+
+After installation, Codex automatically detects new skills. Verify it is loaded:
+
+**简单测试 / Quick Test:**
+
+在 Codex 中向 AI 助手发送以下消息：
+
+Send this message to the AI assistant in Codex:
+
+```
+请使用 business-plan-skill 帮我列出一份商业计划书应该包含的核心章节。
+```
+
+如果 AI 回复中提到了"项目定位"、"目标客户"、"痛点分析"、"解决方案"等结构化章节，说明 skill 已正常工作。
+
+If the AI responds with structured sections like "项目定位", "目标客户", "痛点分析", "解决方案", the skill is working correctly.
+
+**检查 skill 加载状态 / Check Skill Loading Status:**
+
+你也可以直接询问 AI：
+
+You can also ask the AI directly:
+
+```
+请确认 business-plan-skill 是否已加载。
+```
+
+**注：** 如果在其他支持 Agent Skills 的工具中使用，验证方法类似。
+
+**Note:** If using in other Agent Skills-compatible tools, the verification method is similar.
 
 ---
 
@@ -231,9 +272,9 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 致谢 / Acknowledgments
 
-本 skill 基于 OpenAI Codex 的 [agent skills 规范](https://developers.openai.com/codex/skills) 构建。
+本 skill 基于 OpenAI Codex 的 [agent skills 规范](https://learn.chatgpt.com/docs/build-skills)构建。
 
-This skill is built based on OpenAI Codex's [agent skills specification](https://developers.openai.com/codex/skills).
+This skill is built based on OpenAI Codex's [agent skills specification](https://learn.chatgpt.com/docs/build-skills).
 
 感谢所有使用、反馈和贡献的朋友。
 

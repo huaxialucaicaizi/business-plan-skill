@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- 修正安装说明：恢复 Codex 官方的 `$skill-installer` 命令（根据官方文档核实）
+- 更新 OpenAI Codex 规范链接：从失效的 `/codex/skills` 更新为新地址 `https://learn.chatgpt.com/docs/build-skills`
+- 添加"验证安装"部分，提供针对 Codex 的测试方法
+- 补充说明：其他支持 Agent Skills 的工具也可使用此 skill
+- Fixed installation instructions: restored official Codex `$skill-installer` command (verified from official documentation)
+- Updated OpenAI Codex specification link: from deprecated `/codex/skills` to new URL `https://learn.chatgpt.com/docs/build-skills`
+- Added "Verify Installation" section with Codex-specific test methods
+- Added note: other Agent Skills-compatible tools can also use this skill
+
 ### Added
 - CONTRIBUTING.md with guidelines for proposing scenarios, reporting issues, and submitting PRs
 - GitHub issue templates: new scenario and output problem reports
