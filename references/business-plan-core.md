@@ -133,6 +133,65 @@ Financial section should include:
 - Break-even point
 - Funding amount and use of funds
 
+Build the financial plan in this order: key assumptions → revenue derivation → three-year projection → break-even → use of funds → self-check. Every number in the projection should trace back to a row in the Key Assumptions table.
+
+财务部分建议按此顺序完成：关键假设 → 收入推导 → 三年预测 → 盈亏平衡 → 资金用途 → 自检。预测中的每个数字都应能追溯到关键假设表中的某一行。
+
+### Key Assumptions / 关键假设表
+
+Source type / 数据来源类型:
+- `Actual` / 实际: verified data the user provided, such as signed contracts, invoices, or current users.
+- `Estimate` / 估算: derived from real data or cited sources, with the method stated.
+- `Assumption` / 假设: a planning hypothesis with no direct evidence yet; state the reasoning.
+- `待补充`: unknown; ask the user instead of inventing a value.
+
+| Assumption / 假设项 | Value / 数值 | Source Type / 来源类型 | Basis / 依据说明 |
+|---|---|---|---|
+| Paying customers / 付费客户数 | `[number per period]` | `[Actual / Estimate / Assumption / 待补充]` | `[pipeline, pilots, signed LOIs, channel plan]` |
+| New customers per period / 新增客户数 | `[number per month/quarter]` | `[Actual / Estimate / Assumption / 待补充]` | `[sales capacity, channel conversion]` |
+| Price or ARPU / 客单价或 ARPU | `[amount per customer per period]` | `[Actual / Estimate / Assumption / 待补充]` | `[pricing page, quotes, comparable products]` |
+| Billing period / 计费周期 | `[monthly / annual / one-off]` | `[Actual / Estimate / Assumption / 待补充]` | `[contract terms]` |
+| Retention or renewal rate / 续费或留存率 | `[x]% per [month/year]` | `[Actual / Estimate / Assumption / 待补充]` | `[pilot data, industry reference with source]` |
+| Customer acquisition cost (CAC) / 获客成本 | `[amount per customer]` | `[Actual / Estimate / Assumption / 待补充]` | `[ad spend, sales cost, channel fees]` |
+| Gross margin / 毛利率 | `[x]%` | `[Actual / Estimate / Assumption / 待补充]` | `[delivery cost, infrastructure, third-party fees]` |
+| Variable cost per customer / 单客户变动成本 | `[amount per customer per period]` | `[Actual / Estimate / Assumption / 待补充]` | `[compute, service hours, materials]` |
+| Monthly fixed costs / 月度固定成本 | `[amount per month]` | `[Actual / Estimate / Assumption / 待补充]` | `[team, office, tools, compliance]` |
+| Tax and currency basis / 税务与币种口径 | `[tax-inclusive / tax-exclusive, currency]` | `[Actual / 待补充]` | `[invoicing practice]` |
+
+Add or remove rows to match the business model. If a value is unknown, keep `待补充` and list it in the output as a question for the user.
+
+### Revenue Derivation / 收入推导
+
+Basic formula (per revenue stream):
+
+```text
+Revenue = Paying customers × Price (ARPU) × Number of billing periods
+收入 = 付费客户数 × 客单价 × 计费周期数
+```
+
+Subscription revenue, calculated month by month:
+
+```text
+Customers(month n) = Customers(month n-1) × Monthly retention rate + New customers(month n)
+MRR(month n)       = Customers(month n) × Monthly ARPU
+Annual revenue     = Sum of MRR for the 12 months of that year
+```
+
+If there are several revenue types (see the Business Model table), derive each one separately and add them up. Use one-off pricing for courses, consulting, or implementation, and the subscription formula for recurring revenue.
+
+### Break-Even / 盈亏平衡
+
+```text
+Contribution margin per customer = ARPU − Variable cost per customer
+Break-even customers             = Monthly fixed costs ÷ Monthly contribution margin per customer
+Break-even revenue               = Monthly fixed costs ÷ Gross margin %
+Break-even month                 = First month where monthly gross profit ≥ monthly fixed costs
+```
+
+State which assumptions the break-even point depends on most, and how it moves if those assumptions are weaker than planned.
+
+### Three-Year Projection / 三年收入预测
+
 Template:
 
 | Year | Revenue Target | Main Revenue Source | Operating Goal |
@@ -140,6 +199,8 @@ Template:
 | Y1 | `[amount]` | `[source]` | `[goal]` |
 | Y2 | `[amount]` | `[source]` | `[goal]` |
 | Y3 | `[amount]` | `[source]` | `[goal]` |
+
+### Use Of Funds / 资金用途
 
 Funding-use template:
 
@@ -150,4 +211,19 @@ Funding-use template:
 | Operations / Delivery | `[x]%` | `[purpose]` |
 | Pilots / Partnerships | `[x]%` | `[purpose]` |
 | Reserve / Compliance | `[x]%` | `[purpose]` |
+
+### Financial Self-Check / 财务自检清单
+
+Run this checklist before delivering any financial projection or funding request:
+
+- [ ] Use-of-funds percentages add up to 100%. / 资金用途百分比合计为 100%。
+- [ ] Funding amount × each percentage matches the amount described for that use. / 融资金额 × 各项百分比与对应用途描述的金额一致。
+- [ ] Y1 revenue and customer numbers are consistent with the 0-12 month Roadmap milestones. / Y1 收入与客户数与 Roadmap 中 0-12 个月里程碑一致。
+- [ ] Every Y1-Y3 revenue figure can be recomputed from the Key Assumptions table. / Y1-Y3 每个收入数字都能用关键假设表重新算出。
+- [ ] Every number is labeled `Actual`, `Estimate`, `Assumption`, or `待补充`. / 每个数字都标注了来源类型。
+- [ ] Unknown numbers are written as `待补充`, not invented. / 未知数字写 `待补充`，没有编造。
+- [ ] Revenue and costs use the same basis: tax-inclusive or tax-exclusive, monthly or annual, same currency. / 收入与成本口径一致（含税/不含税、月/年、币种）。
+- [ ] Gross margin and break-even use the same cost figures as the cost structure. / 毛利率与盈亏平衡使用的成本与成本结构一致。
+- [ ] The same numbers appear identically in the executive summary, pitch deck, and application forms. / 执行摘要、路演 PPT、申请表中的同一数字保持一致。
+- [ ] Market-size or industry figures cite a source, or are labeled as assumptions. / 市场规模和行业数据注明来源，否则标注为假设。
 
