@@ -55,6 +55,8 @@ For financial projections or funding plans (财务预测、融资计划), start 
    - roadmap
    - financial plan
    - funding/resource request
+
+   For AI products, also include a validation-evidence section (user interviews + small Meta ad tests) using `Validation Evidence / 想法验证` in `references/business-plan-core.md`; if no validation has been done yet, say so honestly instead of inventing traction.
 5. Adapt tone and length to the artifact:
    - application form: concise, objective, policy-friendly
    - pitch deck: sharp claims, visual page logic, investor-friendly
