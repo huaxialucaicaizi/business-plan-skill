@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CI status badge in README
 - `references/business-plan-core.md` 财务部分新增：关键假设表（含数据来源类型：实际 / 估算 / 假设 / 待补充）、收入推导公式、盈亏平衡算法说明、财务自检清单（全部为占位符模板）
 - `references/business-plan-core.md` Financial Plan: added a Key Assumptions table (with source type: Actual / Estimate / Assumption / 待补充), revenue derivation formulas, break-even calculation, and a Financial Self-Check list (placeholder-only templates)
+- `references/business-plan-core.md` 新增"想法验证"章节（面向 AI 产品）：验证内容（痛点、付费意愿、AI 输出质量）、用户访谈方法、小额 Meta 广告测试、结果呈现模板（`[填写]` 占位符，不含基准数字）与验证自检清单，并链接 [ai-mvp-validation](https://github.com/huaxialucaicaizi/ai-mvp-validation)
+- `references/business-plan-core.md`: added a "Validation Evidence" section for AI products: what to validate (pain point, willingness to pay, AI output quality), user interviews, small Meta ad tests, placeholder-only results tables (no benchmark numbers), and a validation self-check, linking to [ai-mvp-validation](https://github.com/huaxialucaicaizi/ai-mvp-validation)
 
 ### Changed
 - 修正安装说明：恢复 Codex 官方的 `$skill-installer` 命令（根据官方文档核实）
@@ -34,6 +36,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `SKILL.md` What To Read: added a pointer to use the Key Assumptions table and Financial Self-Check for financial projections and funding plans
 - 合并 CHANGELOG [Unreleased] 中重复的 "Changed" 小节
 - Merged duplicate "Changed" sections under [Unreleased] in CHANGELOG
+- `SKILL.md` Default Workflow 新增一句：AI 产品需加入想法验证章节，缺少证据时如实说明
+- `SKILL.md` Default Workflow: added a pointer to include the Validation Evidence section for AI products, stating honestly when evidence is missing
+- `references/business-plan-core.md` 后续章节编号顺延（竞品分析 → 7，商业模式 → 8，路线图 → 9，财务计划 → 10）
+- `references/business-plan-core.md`: renumbered later sections (Competitor Analysis → 7, Business Model → 8, Roadmap → 9, Financial Plan → 10)
 
 ## [1.0.0] - 2026-10-19
 
