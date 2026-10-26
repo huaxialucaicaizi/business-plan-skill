@@ -137,6 +137,7 @@ See the [`examples/`](./examples/) directory for fictional project sample output
 - **商业计划书大纲** / Business plan outline: [`bp-outline.md`](./examples/bp-outline.md)
 - **孵化器申请摘要（约 300 字）** / Incubator application summary (~300 characters): [`incubator-application-summary.md`](./examples/incubator-application-summary.md)
 - **路演 PPT 页面大纲** / Pitch deck slide outline: [`pitch-deck-outline.md`](./examples/pitch-deck-outline.md)
+- **关键假设、财务推导与想法验证** / Key assumptions, financial derivation, and validation evidence: [`financial-assumptions-and-validation.md`](./examples/financial-assumptions-and-validation.md)
 
 **注意：所有示例内容均为虚构，仅用于演示 skill 使用方法。**
 
@@ -163,6 +164,7 @@ business-plan-skill/
 └── examples/                         # 虚构项目示例输出
     ├── README.md
     ├── bp-outline.md
+    ├── financial-assumptions-and-validation.md
     ├── incubator-application-summary.md
     └── pitch-deck-outline.md
 ```
