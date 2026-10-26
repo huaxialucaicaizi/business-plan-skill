@@ -26,3 +26,4 @@
 1. `bp-outline.md` - 商业计划书大纲
 2. `incubator-application-summary.md` - 孵化器申请摘要（约 300 字）
 3. `pitch-deck-outline.md` - 路演 PPT 页面大纲
+4. `financial-assumptions-and-validation.md` - 关键假设表、收入与盈亏平衡推导、财务自检清单，以及想法验证证据（按 `references/business-plan-core.md` 模板填写的演示）

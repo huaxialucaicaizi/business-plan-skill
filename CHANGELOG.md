@@ -19,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `references/business-plan-core.md` Financial Plan: added a Key Assumptions table (with source type: Actual / Estimate / Assumption / 待补充), revenue derivation formulas, break-even calculation, and a Financial Self-Check list (placeholder-only templates)
 - `references/business-plan-core.md` 新增"想法验证"章节（面向 AI 产品）：验证内容（痛点、付费意愿、AI 输出质量）、用户访谈方法、小额 Meta 广告测试、结果呈现模板（`[填写]` 占位符，不含基准数字）与验证自检清单，并链接 [ai-mvp-validation](https://github.com/huaxialucaicaizi/ai-mvp-validation)
 - `references/business-plan-core.md`: added a "Validation Evidence" section for AI products: what to validate (pain point, willingness to pay, AI output quality), user interviews, small Meta ad tests, placeholder-only results tables (no benchmark numbers), and a validation self-check, linking to [ai-mvp-validation](https://github.com/huaxialucaicaizi/ai-mvp-validation)
+- 新增虚构示例 `examples/financial-assumptions-and-validation.md`：以「智汇学伴」演示填好的关键假设表、逐月收入推导、盈亏平衡、资金用途、财务自检清单，以及 MVP 阶段的想法验证证据（所有数字均标注为示例假设或虚构示例结果）；`examples/README.md`、`examples/bp-outline.md` 和 README 增加指向该文件的链接
+- Added fictional example `examples/financial-assumptions-and-validation.md` demonstrating a filled-in Key Assumptions table, month-by-month revenue derivation, break-even, use of funds, Financial Self-Check, and MVP-stage Validation Evidence for StudyPal AI (all numbers labeled as example assumptions or fictional results); linked from `examples/README.md`, `examples/bp-outline.md`, and README
 
 ### Changed
 - 修正安装说明：恢复 Codex 官方的 `$skill-installer` 命令（根据官方文档核实）

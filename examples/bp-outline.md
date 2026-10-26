@@ -111,6 +111,8 @@
 | 产品优化与推广 | 6-12 个月 | 优化知识图谱，拓展学科覆盖，增加用户增长渠道 | 付费用户达 5000 人，月收入 ¥50 万 |
 | 规模化扩张 | 12-18 个月 | 与学校合作，拓展团体订阅，探索 B端 市场 | 用户规模达 5 万人，探索新收入模式 |
 
+MVP 阶段的想法验证（用户访谈 + 小额广告测试）填写示例见 [`financial-assumptions-and-validation.md`](./financial-assumptions-and-validation.md)。
+
 ---
 
 ## 9. 财务计划
@@ -128,6 +130,8 @@
 - 市场推广与用户获取：30%
 - 运营与客户成功：20%
 - 储备与合规：10%
+
+关键假设表、逐月收入推导、盈亏平衡和财务自检的填写示例见 [`financial-assumptions-and-validation.md`](./financial-assumptions-and-validation.md)。
 
 ---
 
