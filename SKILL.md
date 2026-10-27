@@ -113,3 +113,24 @@ Chinese version:
 - For official application files, list which fields remain `待补充`.
 - For public templates, remove project-specific facts before finalizing.
 - For short requested copy, provide copy-ready text rather than a long explanation.
+
+## Final Delivery Check / 交付前总自检
+
+Run this before handing any business-plan material to the user. It consolidates rules from this file and `references/`; follow the linked sections for details.
+
+- [ ] Every number is labeled actual / estimate / assumption / `待补充`（实际 / 估算 / 假设 / 待补充）.
+- [ ] No invented names, customers, revenue, funding, awards, patents, or registration info (see Privacy And Accuracy Rules above).
+- [ ] Remaining `待补充` fields are listed for the user.
+- [ ] Tone, length, and wording fit the target audience; short fields respect character limits (see `Character-Limited Field Guidance` in `references/application-copy.md`).
+- [ ] Financial content: the `Financial Self-Check / 财务自检清单` in `references/business-plan-core.md` has been run.
+- [ ] AI products: `Validation Evidence / 想法验证` is included, or its absence is stated honestly — no invented traction.
+- [ ] Public or GitHub-ready outputs: private facts removed and replaced with placeholders.
+
+## Related Toolkit Steps / 上下游衔接
+
+This skill is step 2 (商业计划书 / business plan) of the 「一人公司工具包」/ One-Person Company Toolkit. The other steps are optional companion skills, not dependencies:
+
+- Step 1 / 第 1 步（之前）: [AI MVP Validation · AI 产品 MVP 验证](https://github.com/huaxialucaicaizi/ai-mvp-validation) — validate the idea first; its results feed `Validation Evidence / 想法验证`.
+- Step 3 / 第 3 步（之后）: [OPC Policy Navigator · 一人公司政策导航](https://github.com/huaxialucaicaizi/opc-policy-navigator) — find policies and subsidies to apply for with the plan.
+- Step 4 / 第 4 步（之后）: [AI Pitch Coach · 路演教练](https://github.com/huaxialucaicaizi/ai-pitch-coach) — turn the plan into a pitch script and judge Q&A.
+- Full bundle / 合集: [AI Startup Skills · AI 创业 Skill 包](https://github.com/huaxialucaicaizi/ai-startup-skills).
