@@ -21,6 +21,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `references/business-plan-core.md`: added a "Validation Evidence" section for AI products: what to validate (pain point, willingness to pay, AI output quality), user interviews, small Meta ad tests, placeholder-only results tables (no benchmark numbers), and a validation self-check, linking to [ai-mvp-validation](https://github.com/huaxialucaicaizi/ai-mvp-validation)
 - 新增虚构示例 `examples/financial-assumptions-and-validation.md`：以「智汇学伴」演示填好的关键假设表、逐月收入推导、盈亏平衡、资金用途、财务自检清单，以及 MVP 阶段的想法验证证据（所有数字均标注为示例假设或虚构示例结果）；`examples/README.md`、`examples/bp-outline.md` 和 README 增加指向该文件的链接
 - Added fictional example `examples/financial-assumptions-and-validation.md` demonstrating a filled-in Key Assumptions table, month-by-month revenue derivation, break-even, use of funds, Financial Self-Check, and MVP-stage Validation Evidence for StudyPal AI (all numbers labeled as example assumptions or fictional results); linked from `examples/README.md`, `examples/bp-outline.md`, and README
+- `SKILL.md` 新增"交付前总自检"清单：汇总数字标注、不编造事实、列出 `待补充` 字段、受众与字数、财务自检、AI 产品想法验证、公开版去除隐私等规则，并指向对应参考章节
+- `SKILL.md`: added a "Final Delivery Check" checklist consolidating existing rules (number labeling, no invented facts, listing `待补充` fields, audience and character limits, Financial Self-Check, Validation Evidence for AI products, removing private facts from public outputs), pointing to the relevant reference sections
+- `SKILL.md` 新增"上下游衔接"说明：本 skill 是一人公司工具包第 2 步，链接第 1 步 ai-mvp-validation、第 3 步 opc-policy-navigator、第 4 步 ai-pitch-coach 及合集 ai-startup-skills（均为可选配套 skill，非依赖）
+- `SKILL.md`: added a "Related Toolkit Steps" note: this skill is step 2 of the One-Person Company Toolkit, linking step 1 ai-mvp-validation, step 3 opc-policy-navigator, step 4 ai-pitch-coach, and the ai-startup-skills bundle (optional companion skills, not dependencies)
 
 ### Changed
 - 修正安装说明：恢复 Codex 官方的 `$skill-installer` 命令（根据官方文档核实）
