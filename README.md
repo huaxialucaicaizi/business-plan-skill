@@ -145,6 +145,25 @@ See the [`examples/`](./examples/) directory for fictional project sample output
 
 ---
 
+## 所属工具包 / Part of the One-Person Company Toolkit
+
+本 skill 是「一人公司工具包」7 步中的第 2 步；其他步骤都是可选配套 skill，不是依赖，单独使用本 skill 即可。
+
+This skill is step 2 of the 7-step One-Person Company Toolkit. The other steps are optional companion skills, not dependencies — this skill works on its own.
+
+| 步骤 / Step | Skill | 用途 / Purpose |
+|---|---|---|
+| 1 | [**AI MVP Validation · AI 产品 MVP 验证**](https://github.com/huaxialucaicaizi/ai-mvp-validation) | 先验证有没有人要，再写代码、写 BP / Validate demand before building or writing a BP |
+| 2 | [**Business Plan Skill · 商业计划书**](https://github.com/huaxialucaicaizi/business-plan-skill) | 写 BP、路演材料、孵化器和大赛申请（本仓库 / this repo） / Business plans, pitch materials, incubator and competition applications |
+| 3 | [**OPC Policy Navigator · 一人公司政策导航**](https://github.com/huaxialucaicaizi/opc-policy-navigator) | 查能申请的政策、补贴、算力券、OPC 社区 / Find applicable policies, subsidies, compute vouchers, and OPC communities |
+| 4 | [**AI Pitch Coach · 路演教练**](https://github.com/huaxialucaicaizi/ai-pitch-coach) | 园区、孵化器、创业大赛的路演稿和评委问答 / Pitch scripts and judge Q&A for parks, incubators, and startup competitions |
+| 5 | [**OPC Growth Playbook · 一人公司增长获客**](https://github.com/huaxialucaicaizi/opc-growth-playbook) | 小红书、抖音、视频号冷启动获客 / Cold-start customer acquisition on Xiaohongshu, Douyin, and WeChat Channels |
+| 6 | [**OPC Pricing & Sales · 定价与成交**](https://github.com/huaxialucaicaizi/opc-pricing-sales) | 定价、套餐、报价单、私域成交 / Pricing, packages, quotes, and private-traffic sales |
+| 7 | [**OPC Registration & Compliance · 一人公司注册与合规**](https://github.com/huaxialucaicaizi/opc-registration-compliance) | 选主体类型、注册清单、年报与合规日历 / Entity type, registration checklist, annual reports, and compliance calendar |
+| 合集 / Bundle | [**AI Startup Skills · AI 创业 Skill 包**](https://github.com/huaxialucaicaizi/ai-startup-skills) | 一次装全套 / Install all 7 at once |
+
+---
+
 ## 工作原理 / How It Works
 
 ### 文件结构 / File Structure
@@ -155,6 +174,17 @@ business-plan-skill/
 ├── README.md                         # 使用说明
 ├── LICENSE                           # MIT License
 ├── CHANGELOG.md                      # 版本更新日志
+├── CONTRIBUTING.md                   # 贡献指南
+├── CODE_OF_CONDUCT.md                # 行为准则（Contributor Covenant 2.1）
+├── SECURITY.md                       # 安全问题报告方式
+├── .github/
+│   ├── workflows/
+│   │   └── ci.yml                    # CI：校验 frontmatter、openai.yaml 和 Markdown 链接
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── config.yml
+│   │   ├── new-scenario.md           # 新场景建议模板
+│   │   └── output-problem.md         # 输出问题反馈模板
+│   └── PULL_REQUEST_TEMPLATE.md      # PR 模板
 ├── agents/
 │   └── openai.yaml                   # Codex skill 元数据
 ├── references/                       # 可复用的参考文档

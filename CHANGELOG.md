@@ -25,6 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `SKILL.md`: added a "Final Delivery Check" checklist consolidating existing rules (number labeling, no invented facts, listing `待补充` fields, audience and character limits, Financial Self-Check, Validation Evidence for AI products, removing private facts from public outputs), pointing to the relevant reference sections
 - `SKILL.md` 新增"上下游衔接"说明：本 skill 是一人公司工具包第 2 步，链接第 1 步 ai-mvp-validation、第 3 步 opc-policy-navigator、第 4 步 ai-pitch-coach 及合集 ai-startup-skills（均为可选配套 skill，非依赖）
 - `SKILL.md`: added a "Related Toolkit Steps" note: this skill is step 2 of the One-Person Company Toolkit, linking step 1 ai-mvp-validation, step 3 opc-policy-navigator, step 4 ai-pitch-coach, and the ai-startup-skills bundle (optional companion skills, not dependencies)
+- README 新增"所属工具包"章节：列出一人公司工具包全部 7 步及合集 ai-startup-skills，标明本仓库为第 2 步（其他步骤为可选配套，非依赖）；文件结构树补齐 `.github/`、CONTRIBUTING.md、CODE_OF_CONDUCT.md、SECURITY.md
+- README: added a "Part of the One-Person Company Toolkit" section listing all 7 steps plus the ai-startup-skills bundle, marking this repo as step 2 (other steps are optional companions, not dependencies); updated the file-structure tree to include `.github/`, CONTRIBUTING.md, CODE_OF_CONDUCT.md, and SECURITY.md
 
 ### Changed
 - 修正安装说明：恢复 Codex 官方的 `$skill-installer` 命令（根据官方文档核实）
