@@ -24,6 +24,6 @@
 
 本示例包含：
 1. `bp-outline.md` - 商业计划书大纲
-2. `incubator-application-summary.md` - 孵化器申请摘要（约 300 字）
+2. `incubator-application-summary.md` - 孵化器申请文案填写示例（按 `references/application-copy.md` 填好企业介绍、核心成员、项目内容摘要、短摘要、官方表单默认值、材料清单，以及企业介绍的三档限字数） / Incubator application copy (filled-in demonstration of every section in the application-copy reference)
 3. `pitch-deck-outline.md` - 路演 PPT 页面大纲
 4. `financial-assumptions-and-validation.md` - 关键假设表、收入与盈亏平衡推导、财务自检清单，以及想法验证证据（按 `references/business-plan-core.md` 模板填写的演示）
