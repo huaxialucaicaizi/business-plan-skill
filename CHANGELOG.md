@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- 新增虚构示例 `examples/team-and-competitive-advantage.md`：以「智汇学伴」演示按 `references/founder-and-advantage.md` 填写创始人介绍、能力支柱、团队、竞争优势，以及把「行业领先」等未核实表述改写成有依据或标注 `待验证` / `待补充` 的对照表（角色均为虚构，不含真实姓名或真实雇主）；`examples/README.md` 与 README 增加指向该文件的链接
+- Added fictional example `examples/team-and-competitive-advantage.md` demonstrating a filled-in founder introduction, capability pillars, team section, competitive-advantage section, and a before/after table for softening unverified claims for StudyPal AI (roles are fictional; no real names or real employers); linked from `examples/README.md` and README
 - CONTRIBUTING.md with guidelines for proposing scenarios, reporting issues, and submitting PRs
 - GitHub issue templates: new scenario and output problem reports
 - Pull request template with comprehensive checklist
