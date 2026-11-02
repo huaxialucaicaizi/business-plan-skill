@@ -1,5 +1,7 @@
 # Business Plan Skill / 商业计划书 Skill
 
+[![Try 商业计划书与孵化器申请 on Socialistic](https://socialistic.ai/api/embed/business-plan-skill-3aa225?lang=zh)](https://socialistic.ai/zh/skill/business-plan-skill-3aa225?utm_source=github&utm_medium=pr&utm_campaign=d3874e35&utm_content=badge)
+
 [![CI](https://github.com/huaxialucaicaizi/business-plan-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/huaxialucaicaizi/business-plan-skill/actions/workflows/ci.yml)
 
 **为初创项目和创业团队提供结构化、可复用的商业计划书、路演材料和孵化器申请文案工作流。**
