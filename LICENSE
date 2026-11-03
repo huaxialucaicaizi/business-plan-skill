@@ -1,21 +1,19 @@
-MIT License
+Non-Commercial License / 非商业许可
 
 Copyright (c) 2026 Rui Huang (huaxialucaicaizi)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+中文：
+本项目禁止商业用途。允许个人学习、研究与其他非商业目的下免费使用、复制、修改和分发本项目，但须保留本版权声明与本许可全文。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+未经作者事先书面许可，不得将本项目或其衍生作品用于任何商业目的（包括但不限于出售、收费服务、商业培训、商业产品内嵌或以本项目盈利）。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+如需转载、二次分发或商用授权，请通过 GitHub 联系作者：@huaxialucaicaizi
+
+English:
+Commercial use is prohibited. You may use, copy, modify, and distribute this project free of charge for personal learning, research, and other non-commercial purposes, provided that this copyright notice and this full license text are retained in all copies.
+
+Without prior written permission from the author, you may not use this project or derivative works for any commercial purpose, including but not limited to sale, paid services, commercial training, embedding in commercial products, or monetization.
+
+For republication, redistribution, or a commercial license, contact the author on GitHub: @huaxialucaicaizi
+
+THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

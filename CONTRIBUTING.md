@@ -103,9 +103,9 @@ This project follows the [Contributor Covenant 2.1](CODE_OF_CONDUCT.md). By part
 
 ## 许可证 / License
 
-通过贡献代码，你同意你的贡献将在 [MIT License](LICENSE) 下发布。
+通过贡献代码，你同意你的贡献将在 [Non-Commercial License / 非商业许可](LICENSE) 下发布。
 
-By contributing, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+By contributing, you agree that your contributions will be licensed under the [Non-Commercial License](LICENSE).
 
 ---
 

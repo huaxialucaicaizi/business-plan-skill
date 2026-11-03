@@ -31,6 +31,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - README: added a "Part of the One-Person Company Toolkit" section listing all 7 steps plus the ai-startup-skills bundle, marking this repo as step 2 (other steps are optional companions, not dependencies); updated the file-structure tree to include `.github/`, CONTRIBUTING.md, CODE_OF_CONDUCT.md, and SECURITY.md
 
 ### Changed
+- 许可证从 MIT 变更为非商业许可；转载或商用须通过 GitHub 联系 @huaxialucaicaizi
+- License changed from MIT to a non-commercial license; republication or commercial use requires contacting @huaxialucaicaizi on GitHub
 - 扩展虚构示例 `examples/incubator-application-summary.md`：按 `references/application-copy.md` 补全企业（团队）介绍、核心成员及简介、约 300 字项目内容摘要、基本情况表短摘要、官方表单默认值、材料清单，以及企业介绍在 100 字以内 / 100–200 字 / 200–400 字三档的填写示例（字数已核对；数字均为示例假设或 `待补充`）；同步更新 `examples/README.md` 与 README 中的条目说明
 - Expanded fictional example `examples/incubator-application-summary.md` into a complete filled-in demonstration of every section in `references/application-copy.md` (copy fields at stated lengths, official form defaults, materials checklist, and three character-limit tiers for the company intro; all numbers labeled as example assumptions or `待补充`); updated `examples/README.md` and the README file list
 - 修正安装说明：恢复 Codex 官方的 `$skill-installer` 命令（根据官方文档核实）
