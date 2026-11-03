@@ -103,9 +103,9 @@ This project follows the [Contributor Covenant 2.1](CODE_OF_CONDUCT.md). By part
 
 ## 许可证 / License
 
-通过贡献代码，你同意你的贡献将在 [Non-Commercial License / 非商业许可](LICENSE) 下发布。
+通过贡献代码，你同意你的贡献将在 [Non-Commercial License / 非商业许可](LICENSE) 下发布（禁止商业用途；未经授权不得上架第三方 AI 产品或 Skill 商店）。
 
-By contributing, you agree that your contributions will be licensed under the [Non-Commercial License](LICENSE).
+By contributing, you agree that your contributions will be licensed under the [Non-Commercial License](LICENSE) (non-commercial use only; no unauthorized listing on third-party AI products or skill stores).
 
 ---
 
