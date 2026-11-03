@@ -138,6 +138,7 @@ See the [`examples/`](./examples/) directory for fictional project sample output
 - **孵化器申请文案填写示例** / Incubator application copy (filled-in fields, form defaults, materials checklist, character-limit tiers): [`incubator-application-summary.md`](./examples/incubator-application-summary.md)
 - **路演 PPT 页面大纲** / Pitch deck slide outline: [`pitch-deck-outline.md`](./examples/pitch-deck-outline.md)
 - **关键假设、财务推导与想法验证** / Key assumptions, financial derivation, and validation evidence: [`financial-assumptions-and-validation.md`](./examples/financial-assumptions-and-validation.md)
+- **团队与竞争优势填写示例** / Team and competitive advantage (founder intro, capability pillars, team, advantage, claim-softening table): [`team-and-competitive-advantage.md`](./examples/team-and-competitive-advantage.md)
 
 **注意：所有示例内容均为虚构，仅用于演示 skill 使用方法。**
 
@@ -196,7 +197,8 @@ business-plan-skill/
     ├── bp-outline.md
     ├── financial-assumptions-and-validation.md
     ├── incubator-application-summary.md
-    └── pitch-deck-outline.md
+    ├── pitch-deck-outline.md
+    └── team-and-competitive-advantage.md
 ```
 
 ### 核心原则 / Core Principles

@@ -27,3 +27,4 @@
 2. `incubator-application-summary.md` - 孵化器申请文案填写示例（按 `references/application-copy.md` 填好企业介绍、核心成员、项目内容摘要、短摘要、官方表单默认值、材料清单，以及企业介绍的三档限字数） / Incubator application copy (filled-in demonstration of every section in the application-copy reference)
 3. `pitch-deck-outline.md` - 路演 PPT 页面大纲
 4. `financial-assumptions-and-validation.md` - 关键假设表、收入与盈亏平衡推导、财务自检清单，以及想法验证证据（按 `references/business-plan-core.md` 模板填写的演示）
+5. `team-and-competitive-advantage.md` - 团队与竞争优势填写示例（按 `references/founder-and-advantage.md` 填写创始人介绍、能力支柱、团队、竞争优势，以及把「行业领先」等未核实表述改写成有依据或标注 `待验证` / `待补充` 的对照表） / Team and competitive advantage (filled-in demonstration of the founder-and-advantage reference, including a before/after table for softening unverified claims)
