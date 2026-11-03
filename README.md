@@ -297,9 +297,9 @@ Contributions are welcome! Please submit an Issue or Pull Request to help improv
 
 ## 许可证 / License
 
-本项目禁止商业用途；个人学习与非商业使用可免费使用。如转载请通过 GitHub 联系作者 [@huaxialucaicaizi](https://github.com/huaxialucaicaizi)。详见 [LICENSE](./LICENSE)。
+本项目禁止商业用途；个人学习与非商业使用可免费使用。上架/收录到第三方 AI 产品或 Skill 商店需事先联系作者。如转载请通过 GitHub 联系作者 [@huaxialucaicaizi](https://github.com/huaxialucaicaizi)。详见 [LICENSE](./LICENSE)。
 
-Non-commercial use only. Free for personal learning and non-commercial use. For republication, contact [@huaxialucaicaizi](https://github.com/huaxialucaicaizi) on GitHub. See [LICENSE](./LICENSE).
+Non-commercial use only. Free for personal learning and non-commercial use. Listing or including this project on a third-party AI product or skill store requires prior contact with the author. For republication, contact [@huaxialucaicaizi](https://github.com/huaxialucaicaizi) on GitHub. See [LICENSE](./LICENSE).
 
 **Copyright (c) 2026 Rui Huang (huaxialucaicaizi)**
 
