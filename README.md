@@ -1,6 +1,7 @@
 # Business Plan Skill / 商业计划书 Skill
 
 [![CI](https://github.com/huaxialucaicaizi/business-plan-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/huaxialucaicaizi/business-plan-skill/actions/workflows/ci.yml)
+[![Non-Commercial / 非商业](https://img.shields.io/badge/License-Non--Commercial%20%2F%20非商业-red.svg)](./LICENSE)
 
 **为初创项目和创业团队提供结构化、可复用的商业计划书、路演材料和孵化器申请文案工作流。**
 
@@ -173,7 +174,7 @@ This skill is step 2 of the 7-step One-Person Company Toolkit. The other steps a
 business-plan-skill/
 ├── SKILL.md                          # Skill 入口文件，定义触发条件和工作流
 ├── README.md                         # 使用说明
-├── LICENSE                           # MIT License
+├── LICENSE                           # Non-Commercial License / 非商业许可
 ├── CHANGELOG.md                      # 版本更新日志
 ├── CONTRIBUTING.md                   # 贡献指南
 ├── CODE_OF_CONDUCT.md                # 行为准则（Contributor Covenant 2.1）
@@ -296,9 +297,9 @@ Contributions are welcome! Please submit an Issue or Pull Request to help improv
 
 ## 许可证 / License
 
-本项目采用 [MIT License](./LICENSE) 开源。
+本项目禁止商业用途；个人学习与非商业使用可免费使用。如转载请通过 GitHub 联系作者 [@huaxialucaicaizi](https://github.com/huaxialucaicaizi)。详见 [LICENSE](./LICENSE)。
 
-This project is licensed under the [MIT License](./LICENSE).
+Non-commercial use only. Free for personal learning and non-commercial use. For republication, contact [@huaxialucaicaizi](https://github.com/huaxialucaicaizi) on GitHub. See [LICENSE](./LICENSE).
 
 **Copyright (c) 2026 Rui Huang (huaxialucaicaizi)**
 
