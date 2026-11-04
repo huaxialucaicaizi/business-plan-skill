@@ -69,11 +69,49 @@ Market section structure:
 
 1. Macro trend: `[industry/technology/policy/customer behavior shift]`
 2. Target market: `[specific segment, geography, customer type]`
-3. Market size: `[TAM/SAM/SOM or proxy indicators]`
+3. Market size: `[TAM/SAM/SOM or proxy indicators]` — fill using `Market Sizing / 市场规模测算` below / 测算模板见下方
 4. Urgency: `[why customers need this now]`
 5. Entry market: `[why this geography/segment first]`
 
 Use source-backed data for market size when possible. If using assumptions, label them clearly.
+
+### Market Sizing / 市场规模测算
+
+Explain TAM / SAM / SOM in plain words before filling numbers:
+
+- **TAM** (Total Addressable Market / 总可触达市场): if every customer who could theoretically use this category bought it, how large is that demand? / 该品类理论上全部潜在客户都购买时的需求规模。
+- **SAM** (Serviceable Addressable Market / 可服务市场): the part of TAM you can serve with the current product, customer segment, and geography. / TAM 中当前产品、客户细分与地理范围内实际能服务的部分。
+- **SOM** (Serviceable Obtainable Market / 可获得市场): the share of SAM you can realistically win in 1–3 years. / 未来 1–3 年在 SAM 中可现实拿到的份额。
+
+**Bottom-up (preferred) / 自下而上（优先）:** start from reachable customers, then narrow TAM → SAM → SOM. Replace `[填写]` / `[number]` / `待补充` only; do not invent market numbers or sources.
+
+```text
+TAM ≈ [目标客户总数] × [客单价或 ARPU] × [年购买频次]
+SAM ≈ TAM after [细分 / 地理 / 可服务范围] filters
+SOM ≈ SAM × [1–3 年内可现实拿到的份额]
+```
+
+| Layer | Filter / 口径 | Customers / 客户数 | Price or ARPU / 客单价 | Frequency / 频次 | Size / 规模 | Source Type / 来源类型 | Source / 来源或链接 |
+|---|---|---|---|---|---|---|---|
+| TAM | `[全品类 / 全地理]` | `[number]` | `[amount]` | `[times per year]` | `[填写]` | `[Actual / Estimate / Assumption / 待补充]` | `[link or 待补充]` |
+| SAM | `[细分 / 地理 / 可服务范围]` | `[number]` | `[amount]` | `[times per year]` | `[填写]` | `[Actual / Estimate / Assumption / 待补充]` | `[link or 待补充]` |
+| SOM | `[1–3 年可现实份额]` | `[number]` | `[amount]` | `[times per year]` | `[填写]` | `[Actual / Estimate / Assumption / 待补充]` | `[link or 待补充]` |
+
+Source type uses the same labels as `Key Assumptions / 关键假设表`: `Actual` / 实际, `Estimate` / 估算, `Assumption` / 假设, `待补充`.
+
+**Align with the financial plan / 与财务计划对齐:** SOM (Y1–Y3) should be consistent with Y1–Y3 revenue in `Three-Year Projection / 三年收入预测` and with paying-customer / price / ARPU rows in `Key Assumptions / 关键假设表`. If they diverge, revise SOM or the forecast and explain why.
+
+**Top-down cross-check (optional) / 自上而下交叉核对（可选）:** if a cited industry total exists, compare it with bottom-up TAM. Do not invent a source. If they differ, state the gap and which figure you use.
+
+**When no reliable data exists / 没有可靠数据时:** use proxy indicators (e.g. countable target customers, public listings, interview frequency) and label the figure `Assumption` / 假设. If even a proxy is unavailable, write `待补充` rather than inventing a number or source.
+
+**Market-Sizing Self-Check / 市场规模自检清单**
+
+- [ ] TAM, SAM, and SOM are defined, with the TAM → SAM → SOM filters stated. / 已给出 TAM / SAM / SOM，并写明从 TAM 收窄到 SAM、再到 SOM 的过滤条件。
+- [ ] Every market figure has Source Type `Actual` / `Estimate` / `Assumption` / `待补充`, plus a source/link or an explicit assumption note. / 每个市场规模数字都标注了来源类型，并有来源链接或假设说明。
+- [ ] No market number or source was invented; unknown values are `待补充`. / 没有编造市场规模数字或来源；未知值写 `待补充`。
+- [ ] SOM is consistent with Y1–Y3 revenue and the Key Assumptions table. / SOM 与三年收入预测及关键假设表一致。
+- [ ] If no reliable source exists, a proxy is used and labeled as an assumption, or the field is `待补充`. / 无可靠来源时使用代理指标并标注为假设，或写 `待补充`。
 
 ## 6. Validation Evidence / 想法验证
 
