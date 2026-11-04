@@ -38,6 +38,8 @@ Load only the reference needed for the task:
 
 For financial projections or funding plans (财务预测、融资计划), start from the Key Assumptions table in `references/business-plan-core.md`, derive revenue from it, and run the Financial Self-Check before delivering.
 
+For market sizing (市场规模测算), use `Market Sizing / 市场规模测算` in section 5 of `references/business-plan-core.md`; label every figure as Actual / Estimate / Assumption / `待补充`, and keep SOM consistent with Y1–Y3 revenue.
+
 ## Default Workflow
 
 1. Identify the target audience: investor, incubator reviewer, government park, partner, customer, or internal team.
