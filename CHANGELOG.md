@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- 新增虚构示例 `examples/market-sizing.md`：以「智汇学伴」演示按 `references/business-plan-core.md` 第 5 节「市场规模测算」模板填写 TAM / SAM / SOM（自下而上圆整示例假设、来源类型 `Assumption` / 假设 或 `待补充`、SOM 与 `examples/financial-assumptions-and-validation.md` 的 Y1 收入及关键假设表对齐；不含真实市场统计、真实人口数字、真实报告或来源网址）；`examples/README.md` 与 README 增加指向该文件的链接
+- Added fictional example `examples/market-sizing.md` demonstrating a filled-in TAM / SAM / SOM table for StudyPal AI from the Market Sizing subsection of `references/business-plan-core.md` (round bottom-up example assumptions, source type `Assumption` or `待补充`, SOM aligned to Y1 revenue and the Key Assumptions table in `examples/financial-assumptions-and-validation.md`; no real market statistics, population figures, reports, or source URLs); linked from `examples/README.md` and README
 - `references/business-plan-core.md` 第 5 节新增「市场规模测算」：TAM/SAM/SOM 白话说明、自下而上占位模板（含来源类型与来源/链接）、与三年收入预测及关键假设表对齐的提示、无可靠数据时的处理，以及市场规模自检清单（全部为占位符，不含真实市场数字）
 - `references/business-plan-core.md` section 5: added a Market Sizing subsection with plain-language TAM/SAM/SOM, a bottom-up placeholder template (source type + source/link), a note to keep SOM consistent with the Three-Year Projection and Key Assumptions table, guidance when no reliable data exists, and a market-sizing self-check (placeholders only; no real market numbers)
 - 新增虚构示例 `examples/team-and-competitive-advantage.md`：以「智汇学伴」演示按 `references/founder-and-advantage.md` 填写创始人介绍、能力支柱、团队、竞争优势，以及把「行业领先」等未核实表述改写成有依据或标注 `待验证` / `待补充` 的对照表（角色均为虚构，不含真实姓名或真实雇主）；`examples/README.md` 与 README 增加指向该文件的链接
