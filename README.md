@@ -140,6 +140,7 @@ See the [`examples/`](./examples/) directory for fictional project sample output
 - **路演 PPT 页面大纲** / Pitch deck slide outline: [`pitch-deck-outline.md`](./examples/pitch-deck-outline.md)
 - **关键假设、财务推导与想法验证** / Key assumptions, financial derivation, and validation evidence: [`financial-assumptions-and-validation.md`](./examples/financial-assumptions-and-validation.md)
 - **团队与竞争优势填写示例** / Team and competitive advantage (founder intro, capability pillars, team, advantage, claim-softening table): [`team-and-competitive-advantage.md`](./examples/team-and-competitive-advantage.md)
+- **市场规模测算填写示例** / Market sizing (filled-in TAM / SAM / SOM template; example assumptions only, SOM aligned to Y1 revenue): [`market-sizing.md`](./examples/market-sizing.md)
 
 **注意：所有示例内容均为虚构，仅用于演示 skill 使用方法。**
 
@@ -198,6 +199,7 @@ business-plan-skill/
     ├── bp-outline.md
     ├── financial-assumptions-and-validation.md
     ├── incubator-application-summary.md
+    ├── market-sizing.md
     ├── pitch-deck-outline.md
     └── team-and-competitive-advantage.md
 ```
