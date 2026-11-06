@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- `SKILL.md` 交付前总自检新增市场规模项：交付前须运行 `references/business-plan-core.md` 中的「Market-Sizing Self-Check / 市场规模自检清单」，并确认 SOM 与 Y1–Y3 收入 / 关键假设表一致，或缺口已标为 `待补充`
+- `SKILL.md` Final Delivery Check: added a market-sizing item requiring the `Market-Sizing Self-Check / 市场规模自检清单` in `references/business-plan-core.md`; SOM must match Y1–Y3 revenue / Key Assumptions, or gaps must be `待补充`
 - 新增虚构示例 `examples/market-sizing.md`：以「智汇学伴」演示按 `references/business-plan-core.md` 第 5 节「市场规模测算」模板填写 TAM / SAM / SOM（自下而上圆整示例假设、来源类型 `Assumption` / 假设 或 `待补充`、SOM 与 `examples/financial-assumptions-and-validation.md` 的 Y1 收入及关键假设表对齐；不含真实市场统计、真实人口数字、真实报告或来源网址）；`examples/README.md` 与 README 增加指向该文件的链接
 - Added fictional example `examples/market-sizing.md` demonstrating a filled-in TAM / SAM / SOM table for StudyPal AI from the Market Sizing subsection of `references/business-plan-core.md` (round bottom-up example assumptions, source type `Assumption` or `待补充`, SOM aligned to Y1 revenue and the Key Assumptions table in `examples/financial-assumptions-and-validation.md`; no real market statistics, population figures, reports, or source URLs); linked from `examples/README.md` and README
 - `references/business-plan-core.md` 第 5 节新增「市场规模测算」：TAM/SAM/SOM 白话说明、自下而上占位模板（含来源类型与来源/链接）、与三年收入预测及关键假设表对齐的提示、无可靠数据时的处理，以及市场规模自检清单（全部为占位符，不含真实市场数字）
@@ -35,6 +37,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - README: added a "Part of the One-Person Company Toolkit" section listing all 7 steps plus the ai-startup-skills bundle, marking this repo as step 2 (other steps are optional companions, not dependencies); updated the file-structure tree to include `.github/`, CONTRIBUTING.md, CODE_OF_CONDUCT.md, and SECURITY.md
 
 ### Changed
+- 对齐虚构大纲的市场与财务数字：`examples/bp-outline.md` 第 5 / 9 节与 `examples/pitch-deck-outline.md` 第 6 / 11 页改用 `examples/market-sizing.md` 的 TAM / SAM / SOM 示例假设，以及 `examples/financial-assumptions-and-validation.md` 推导的 Y1 ¥2,271,456（约 ¥227 万）；Y2 / Y3 保留 `待补充`；去掉未推导的「5,000 人 × ¥1,000 = ¥500 万」和「约 8000 万人 / 4000 万家庭 / 10% → 400 万」口径；并更新上述两份详细示例中原先记录的大纲口径差异说明
+- Aligned fictional outline market and finance figures: `examples/bp-outline.md` sections 5 / 9 and `examples/pitch-deck-outline.md` pages 6 / 11 now reuse the labeled TAM / SAM / SOM example assumptions from `examples/market-sizing.md` and the derived Y1 ¥2,271,456 (~¥227万) from `examples/financial-assumptions-and-validation.md`; Y2 / Y3 stay `待补充`; removed the undervived “5,000 users × ¥1,000 = ¥5M” and “~80M / 40M households / 10% → 4M” claims; updated the previously documented outline-mismatch notes in those two detailed examples
 - `SKILL.md` 的 What To Read 新增提示：做市场规模测算时使用第 5 节「市场规模测算」模板，数字需标注来源类型，SOM 与 Y1–Y3 收入一致
 - `SKILL.md` What To Read: added a pointer to use the Market Sizing subsection for TAM/SAM/SOM, with source-type labels and SOM aligned to Y1–Y3 revenue
 - 新增条款：未经授权不得将本项目上架或收录到第三方 AI 产品 / Skill 商店

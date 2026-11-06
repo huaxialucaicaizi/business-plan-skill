@@ -125,6 +125,7 @@ Run this before handing any business-plan material to the user. It consolidates 
 - [ ] Remaining `待补充` fields are listed for the user.
 - [ ] Tone, length, and wording fit the target audience; short fields respect character limits (see `Character-Limited Field Guidance` in `references/application-copy.md`).
 - [ ] Financial content: the `Financial Self-Check / 财务自检清单` in `references/business-plan-core.md` has been run.
+- [ ] Market sizing content: the `Market-Sizing Self-Check / 市场规模自检清单` in `references/business-plan-core.md` has been run; SOM is consistent with Y1–Y3 revenue / Key Assumptions, or gaps are explicitly `待补充`.
 - [ ] AI products: `Validation Evidence / 想法验证` is included, or its absence is stated honestly — no invented traction.
 - [ ] Public or GitHub-ready outputs: private facts removed and replaced with placeholders.
 

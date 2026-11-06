@@ -90,7 +90,7 @@ This table has no `Actual` or `Estimate`: the project is not charging yet, and t
 
 1. **Y2、Y3 为 `待补充`。** 模板要求 SOM 覆盖 1–3 年并与 Y1–Y3 收入一致。财务示例因缺少学校合作与 B 端假设，Y2 / Y3 收入保留 `待补充`。本示例因此只填 Y1 SOM；1–3 年合计 SOM 写 `待补充`，待财务假设补齐后再推导。不把路线图里的「12–18 个月用户 5 万人」（示例假设）写成 Y2/Y3 SOM。
 2. **M12 时点人数 ≠ Y1 确认收入。** 若用 5,118 × ¥99 × 12，会得到年化 run-rate **¥6,080,184**（5,118 × ¥1,188；示例假设下的反事实口径）。这与 Y1 收入 ¥2,271,456 不一致，因为 M1–M3 不收费、付费客户是从 M4 起爬坡的。模板要求与三年预测的 **Y1 收入** 对齐，所以表中 SOM 使用年平均 1,912 人 / ¥2,271,456，而不是年末人数 × 12。
-3. **与 [`bp-outline.md`](./bp-outline.md) 第 9 节的差异（财务示例已记录）。** 大纲中的 Y1 收入为 ¥500 万（5,000 人 × ¥1,000，示例假设），相当于假设 5,000 人全年付费。可推导的 Y1 是 ¥2,271,456。本示例跟财务推导走，不跟大纲的未推导口径走。真实项目应以可推导数字为准，再回写大纲和路演页。
+3. **与大纲 / 路演已对齐。** [`bp-outline.md`](./bp-outline.md) 第 5、9 节和 [`pitch-deck-outline.md`](./pitch-deck-outline.md) 第 6、11 页已回写为本示例与财务示例的派生口径：Y1 / SOM = ¥2,271,456（示例假设）；Y2 / Y3 为 `待补充`。不再使用「5,000 人 × ¥1,000 = ¥500 万」的未推导全年满员口径。
 
 **Top-down cross-check (optional) / 自上而下交叉核对（可选）:** if a cited industry total exists, compare it with bottom-up TAM. Do not invent a source. If they differ, state the gap and which figure you use.
 

@@ -186,12 +186,12 @@ Break-even month                 = First month where monthly gross profit ≥ mo
   - 均为人民币、按月计算、同一税务口径；含税还是不含税仍是 `待补充`，确认后收入与成本需一起调整。
 - [x] Gross margin and break-even use the same cost figures as the cost structure. / 毛利率与盈亏平衡使用的成本与成本结构一致。
   - 毛利率、盈亏平衡、推导表都使用 ¥30 / 客户 / 月 变动成本和 ¥250,000 / 月 固定成本。
-- [ ] The same numbers appear identically in the executive summary, pitch deck, and application forms. / 执行摘要、路演 PPT、申请表中的同一数字保持一致。
-  - **未通过（自检发现的问题）：** [`bp-outline.md`](./bp-outline.md) 第 9 节和 [`pitch-deck-outline.md`](./pitch-deck-outline.md) 第 11 页的 Y1 收入为 ¥500 万（5,000 人 × ¥1,000），相当于假设 5,000 名用户全年都在付费；按本文件的逐月推导，Y1 收入约为 ¥227 万。真实项目中应以可推导的数字为准，统一更新大纲、路演 PPT 和申请表。价格 ¥99/月、毛利约 70%、融资 ¥500 万及资金用途比例在各文件中一致。
+- [x] The same numbers appear identically in the executive summary, pitch deck, and application forms. / 执行摘要、路演 PPT、申请表中的同一数字保持一致。
+  - **已对齐：** [`bp-outline.md`](./bp-outline.md) 第 9 节和 [`pitch-deck-outline.md`](./pitch-deck-outline.md) 第 11 页的 Y1 收入已回写为本文件推导的 ¥2,271,456（约 ¥227 万，示例假设）；Y2 / Y3 与本文件一致，保留 `待补充`。价格 ¥99/月、毛利约 70%、融资 ¥500 万及资金用途比例在各文件中一致。
 - [x] Market-size or industry figures cite a source, or are labeled as assumptions. / 市场规模和行业数据注明来源，否则标注为假设。
-  - 本文件未使用任何市场规模或行业数据。（如合并进完整商业计划书，bp-outline 第 5 节中的学生人数等市场数据也需注明来源或标注为假设。）
+  - 本文件未使用任何市场规模或行业数据。bp-outline 第 5 节与路演第 6 页的 TAM / SAM / SOM 已按 `examples/market-sizing.md` 标注为示例假设或 `待补充`。
 
-**自检结论（示例）：** 资金用途、Y1 推导、盈亏平衡和口径检查通过；Y2/Y3 推导和跨文件数字一致性未通过，需要先补充假设并统一 Y1 收入口径，再对外提交财务预测。
+**自检结论（示例）：** 资金用途、Y1 推导、盈亏平衡、口径检查和跨文件 Y1 数字一致性通过；Y2/Y3 推导未通过，需先补充学校合作与 B 端假设后再填写三年预测。
 
 ---
 
