@@ -141,6 +141,7 @@ See the [`examples/`](./examples/) directory for fictional project sample output
 - **关键假设、财务推导与想法验证** / Key assumptions, financial derivation, and validation evidence: [`financial-assumptions-and-validation.md`](./examples/financial-assumptions-and-validation.md)
 - **团队与竞争优势填写示例** / Team and competitive advantage (founder intro, capability pillars, team, advantage, claim-softening table): [`team-and-competitive-advantage.md`](./examples/team-and-competitive-advantage.md)
 - **市场规模测算填写示例** / Market sizing (filled-in TAM / SAM / SOM template; example assumptions only, SOM aligned to Y1 revenue): [`market-sizing.md`](./examples/market-sizing.md)
+- **竞品分析填写示例** / Competitor analysis (filled-in four-type framing table, differentiation claim, claim-softening table, Competitor Self-Check; public names as category representatives only): [`competitor-analysis.md`](./examples/competitor-analysis.md)
 
 **注意：所有示例内容均为虚构，仅用于演示 skill 使用方法。**
 
@@ -199,6 +200,7 @@ business-plan-skill/
     ├── bp-outline.md
     ├── financial-assumptions-and-validation.md
     ├── incubator-application-summary.md
+    ├── competitor-analysis.md
     ├── market-sizing.md
     ├── pitch-deck-outline.md
     └── team-and-competitive-advantage.md

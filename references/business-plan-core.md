@@ -193,6 +193,19 @@ Differentiation claim:
 
 > Unlike `[alternative]`, `[Project Name]` focuses on `[unique workflow/result]`, combining `[capability 1]`, `[capability 2]`, and `[capability 3]` to deliver `[measurable result]`.
 
+Competitor rows may name well-known public products as **category representatives** / 品类代表. Do not invent their user counts, revenue, pricing, or rankings. If a comparative fact is unverified, rewrite it to be evidence-based or mark `待验证` / `待补充` (same spirit as founder-and-advantage claim softening).
+
+Differentiation claims should be consistent with competitive-advantage wording in `references/founder-and-advantage.md`, and with the Validation Evidence section when traction is cited.
+
+### Competitor Self-Check / 竞品自检清单
+
+- [ ] At least 3 competitor types are filled (incumbent / point solution / services or internal workaround as fits). / 至少填满 3 类竞品（现有工具 / 单点方案 / 服务或内部凑合方案，按项目取舍）。
+- [ ] Each row has Strength, Gap, and Opportunity (no empty cells). / 每一行都有优势、不足和机会，无空格。
+- [ ] No invented competitor metrics; unknown values are `待补充`. / 没有编造竞品用户量、收入、定价或排名；未知值写 `待补充`。
+- [ ] The differentiation claim names a unique workflow/result, not empty slogans such as 「行业领先」 without evidence. / 差异化主张点出独特工作流或结果，而不是无证据的「行业领先」等口号。
+- [ ] Claims that need proof are marked `待验证` / `待补充` or rewritten with evidence. / 需要证明的比较表述已标 `待验证` / `待补充`，或已改写成有依据的说法。
+- [ ] Competitor narrative is consistent with Positioning / Target Customers / Pain Point elsewhere in the plan. / 竞品叙述与计划书中的定位、目标客户、痛点口径一致。
+
 ## 8. Business Model
 
 Common models:
