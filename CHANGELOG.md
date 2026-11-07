@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- 新增虚构示例 `examples/competitor-analysis.md`：以「智汇学伴」演示按 `references/business-plan-core.md` 第 7 节填写四类竞品框架、差异化主张、未核实比较的改写对照表与竞品自检清单（公开产品名仅为品类代表，Strength / Gap 保持定性，未知指标为 `待补充`；不含真实个人案例或第三方促销）；`examples/README.md`、README 与 `examples/bp-outline.md` 增加指向该文件的链接
+- Added fictional example `examples/competitor-analysis.md` demonstrating a filled-in competitor framing table, differentiation claim, before/after claim-softening table, and Competitor Self-Check for StudyPal AI (public product names as category representatives only; qualitative Strength/Gap; unknown metrics `待补充`; no real personal cases or third-party promo); linked from `examples/README.md`, README, and `examples/bp-outline.md`
+- `references/business-plan-core.md` 第 7 节新增竞品填写注意（公开产品可作为品类代表，禁止编造用户量 / 收入 / 定价 / 排名，未核实比较标 `待验证` / `待补充`）、与 `founder-and-advantage.md` 及想法验证章节口径一致的提示，以及「Competitor Self-Check / 竞品自检清单」
+- `references/business-plan-core.md` section 7: added competitor-row guidance (well-known public products may be named as category representatives; do not invent user counts, revenue, pricing, or rankings; unverified comparisons use `待验证` / `待补充`), a consistency note with founder-and-advantage wording and Validation Evidence, and a Competitor Self-Check
+- `SKILL.md` 交付前总自检新增竞品项：交付前须运行第 7 节「Competitor Self-Check / 竞品自检清单」，且不得编造竞品指标
+- `SKILL.md` Final Delivery Check: added a competitor-analysis item requiring the `Competitor Self-Check / 竞品自检清单` in section 7 of `references/business-plan-core.md`; no invented competitor metrics
 - `SKILL.md` 交付前总自检新增市场规模项：交付前须运行 `references/business-plan-core.md` 中的「Market-Sizing Self-Check / 市场规模自检清单」，并确认 SOM 与 Y1–Y3 收入 / 关键假设表一致，或缺口已标为 `待补充`
 - `SKILL.md` Final Delivery Check: added a market-sizing item requiring the `Market-Sizing Self-Check / 市场规模自检清单` in `references/business-plan-core.md`; SOM must match Y1–Y3 revenue / Key Assumptions, or gaps must be `待补充`
 - 新增虚构示例 `examples/market-sizing.md`：以「智汇学伴」演示按 `references/business-plan-core.md` 第 5 节「市场规模测算」模板填写 TAM / SAM / SOM（自下而上圆整示例假设、来源类型 `Assumption` / 假设 或 `待补充`、SOM 与 `examples/financial-assumptions-and-validation.md` 的 Y1 收入及关键假设表对齐；不含真实市场统计、真实人口数字、真实报告或来源网址）；`examples/README.md` 与 README 增加指向该文件的链接
