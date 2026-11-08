@@ -227,6 +227,21 @@ Business model table:
 | Premium service | `[consulting/implementation]` | `[price]` | High-ticket validation |
 | Enterprise plan | `[custom package]` | `[price]` | Higher ACV and case studies |
 
+### Filling Guidance / 填写注意
+
+- Every pricing number must carry a source type: `Actual` / 实际, `Estimate` / 估算, `Assumption` / 假设, or `待补充`. Do not invent prices, conversion rates, or revenue shares. / 每个定价数字都必须标注来源类型；不得编造价格、转化率或收入占比。
+- An unpriced revenue type (for example an annual plan, group package, or B2B plan) may remain in the table, but its pricing must be `待补充`. Do not include it in a “currently included” revenue claim or any Y1 figure until its assumptions are complete. / 尚未定价的收入类型可以留在表中，但必须标为 `待补充`；假设补齐前，不得写进「当前已计入」的收入主张或 Y1 数字。
+- A free trial or acquisition entry point is not revenue. Its Strategic Role may be user acquisition / education, while Pricing should say `Free / 免费（非收入）` instead of presenting it as a revenue stream. / 免费试用或获客入口不是收入；战略角色可写获客 / 教育，定价处应明确 `免费（非收入）`，不得伪装成收入。
+- Keep each revenue type consistent with `Price or ARPU / 客单价或 ARPU`, `Billing period / 计费周期`, and the per-stream Revenue Derivation in section 10. If several revenue types are used, derive each separately before adding them together. / 每条收入类型都要与第 10 节关键假设表中的价格、计费周期及分收入类型推导一致；多种收入需分别推导后再加总。
+
+### Business Model Self-Check / 商业模式自检清单
+
+- [ ] Every revenue type has a Product Form and a price, or is explicitly `待补充`. / 每条收入类型都有产品形态和定价，或明确标为 `待补充`。
+- [ ] Every pricing number has Source Type `Actual` / `Estimate` / `Assumption` / `待补充`. / 每个定价数字都标注了来源类型。
+- [ ] Unpriced items are excluded from current revenue claims and Y1 figures. / 未定价项目未计入当前收入主张或 Y1 数字。
+- [ ] Free tiers, trials, and acquisition entry points are identified as non-revenue. / 免费档、试用和获客入口均明确为非收入。
+- [ ] Price / ARPU and Billing period match the Key Assumptions table and per-stream revenue derivation in section 10. / 价格或 ARPU、计费周期与第 10 节关键假设表及分收入类型推导一致。
+
 ## 9. Roadmap
 
 18-month roadmap template:
