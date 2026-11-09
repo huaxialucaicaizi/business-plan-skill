@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- 新增虚构示例 `examples/roadmap.md`：以「智汇学伴」演示填写 18 个月可核验里程碑及路线图自检；付费起点与 Y1 客户 / 收入目标复用财务推导，行动与资金用途对齐，12–18 个月未知项保留 `待补充`，未来事项明确写成计划；`examples/README.md` 与 README 增加链接和文件树条目
+- Added fictional example `examples/roadmap.md` demonstrating checkable 18-month milestones and the Roadmap Self-Check for StudyPal AI; paid timing and Y1 customer/revenue targets reuse the financial derivation, actions align with Use Of Funds, 12–18 month unknowns remain `待补充`, and future work is explicitly stated as plans; linked from `examples/README.md` and README, including the file tree
+- `references/business-plan-core.md` 第 9 节新增双语路线图填写注意与「Roadmap Self-Check / 路线图自检清单」：里程碑须写清做什么、何时完成、如何衡量，并与第 10 节关键假设 / 收入推导及资金用途一致；禁止编造日期、合作方、客户或指标，未来计划不得写成既有成绩
+- `references/business-plan-core.md` section 9: added bilingual roadmap guidance and a Roadmap Self-Check requiring concrete what/by-when/how-measured milestones aligned with section 10 assumptions, revenue derivation, and Use Of Funds; unknown dates, partners, customers, or metrics must not be invented, and future plans must not be presented as achievements
+- `SKILL.md` 的 What To Read 与交付前总自检新增路线图项：使用第 9 节模板和自检，并核对财务假设、收入推导、资金用途及未来计划表述
+- `SKILL.md` What To Read and Final Delivery Check: added a roadmap item requiring the section 9 template and self-check, with consistency checks against financial assumptions, revenue derivation, Use Of Funds, and future-plan wording
 - 新增虚构示例 `examples/business-model.md`：以「智汇学伴」演示填写收入类型、产品形态、定价来源、战略角色与商业模式自检；Y1 只计入 ¥99/月个人订阅，年度会员、学校 / 团体订阅及 B 端未完成项保留 `待补充`，免费入口明确为非收入；`examples/README.md` 与 README 增加链接和文件树条目
 - Added fictional example `examples/business-model.md` demonstrating a filled-in revenue-type table, pricing source labels, strategic roles, and Business Model Self-Check for StudyPal AI; Y1 includes only the ¥99/month individual subscription, incomplete annual / school / group / B2B items remain `待补充`, and the free entry tier is explicitly non-revenue; linked from `examples/README.md` and README, including the file tree
 - `references/business-plan-core.md` 第 8 节新增商业模式填写注意与「Business Model Self-Check / 商业模式自检清单」：定价须标来源类型，禁止编造价格 / 转化率 / 收入占比，未定价收入不得计入当前主张或 Y1，免费入口不得当作收入，并要求与第 10 节关键假设及分收入推导一致
@@ -49,6 +55,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - README: added a "Part of the One-Person Company Toolkit" section listing all 7 steps plus the ai-startup-skills bundle, marking this repo as step 2 (other steps are optional companions, not dependencies); updated the file-structure tree to include `.github/`, CONTRIBUTING.md, CODE_OF_CONDUCT.md, and SECURITY.md
 
 ### Changed
+- 最小化对齐虚构大纲路线图：`examples/bp-outline.md` 与 `examples/pitch-deck-outline.md` 移除未推导的 100 名种子用户和 5 万用户目标，改用财务示例推导的 M4 收费起点、M6 / M12 客户与 MRR（均标示例假设），12–18 个月合作 / 收入指标保留 `待补充`，并链接新的路线图示例
+- Minimally aligned roadmap sections in the fictional outlines: `examples/bp-outline.md` and `examples/pitch-deck-outline.md` remove the underived 100-seed-user and 50,000-user targets, reuse the financial example's M4 paid start and derived M6 / M12 customer and MRR figures (all labeled as example assumptions), leave 12–18 month partnership/revenue metrics as `待补充`, and link the new roadmap example
 - 对齐虚构大纲的商业模式口径：`examples/bp-outline.md` 第 7 节与 `examples/pitch-deck-outline.md` 第 8 页明确 Y1 只计入 ¥99/月个人订阅；¥899/年年度会员与学校 / 团体订阅、B 端因假设未完成标为 `待补充` 且不计入 Y1；每天 3 次免费提问明确为获客 / 教育入口而非收入，并链接新的商业模式示例
 - Aligned business-model wording in the fictional outlines: `examples/bp-outline.md` section 7 and `examples/pitch-deck-outline.md` page 8 now state that Y1 includes only the ¥99/month individual subscription; the ¥899/year annual plan and school / group / B2B items remain `待补充` and excluded from Y1; three free questions per day are an acquisition / education entry point, not revenue; both link to the new business-model example
 - 对齐虚构大纲的市场与财务数字：`examples/bp-outline.md` 第 5 / 9 节与 `examples/pitch-deck-outline.md` 第 6 / 11 页改用 `examples/market-sizing.md` 的 TAM / SAM / SOM 示例假设，以及 `examples/financial-assumptions-and-validation.md` 推导的 Y1 ¥2,271,456（约 ¥227 万）；Y2 / Y3 保留 `待补充`；去掉未推导的「5,000 人 × ¥1,000 = ¥500 万」和「约 8000 万人 / 4000 万家庭 / 10% → 400 万」口径；并更新上述两份详细示例中原先记录的大纲口径差异说明

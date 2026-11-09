@@ -175,7 +175,7 @@ Break-even month                 = First month where monthly gross profit ≥ mo
 - [x] Funding amount × each percentage matches the amount described for that use. / 融资金额 × 各项百分比与对应用途描述的金额一致。
   - ¥500 万 × 40% = ¥200 万；× 30% = ¥150 万；× 20% = ¥100 万；× 10% = ¥50 万。研发 + 运营 = ¥300 万 = 12 × ¥25 万 月度固定成本；Y1 获客 ¥103.5 万 ≤ 市场预算 ¥150 万。
 - [x] Y1 revenue and customer numbers are consistent with the 0-12 month Roadmap milestones. / Y1 收入与客户数与 Roadmap 中 0-12 个月里程碑一致。
-  - 路线图（bp-outline 第 8 节）"6-12 个月付费用户达 5000 人，月收入 ¥50 万"：推导结果 M12 月末 5,118 人、MRR ¥506,682，一致；M1–M3 不收费、M4 起付费，与"0-3 个月 MVP 验证、3-6 个月商业化试点"一致。
+  - 路线图详细示例 [`roadmap.md`](./roadmap.md) 直接复用推导结果：M12 月末 5,118 人、MRR ¥506,682；M1–M3 不收费、M4 起付费，与本表一致。
 - [ ] Every Y1-Y3 revenue figure can be recomputed from the Key Assumptions table. / Y1-Y3 每个收入数字都能用关键假设表重新算出。
   - Y1 可以重新算出（见收入推导表）。Y2、Y3 缺少学校合作和 B端假设，保留 `待补充`，**未通过**，需补充假设后再推导。
 - [x] Every number is labeled `Actual`, `Estimate`, `Assumption`, or `待补充`. / 每个数字都标注了来源类型。

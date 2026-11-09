@@ -143,6 +143,7 @@ See the [`examples/`](./examples/) directory for fictional project sample output
 - **市场规模测算填写示例** / Market sizing (filled-in TAM / SAM / SOM template; example assumptions only, SOM aligned to Y1 revenue): [`market-sizing.md`](./examples/market-sizing.md)
 - **竞品分析填写示例** / Competitor analysis (filled-in four-type framing table, differentiation claim, claim-softening table, Competitor Self-Check; public names as category representatives only): [`competitor-analysis.md`](./examples/competitor-analysis.md)
 - **商业模式填写示例** / Business model (filled-in revenue-type table and Business Model Self-Check; Y1 includes monthly subscription only, while unpriced annual / group / B2B items remain `待补充`): [`business-model.md`](./examples/business-model.md)
+- **路线图填写示例** / Roadmap (filled-in 18-month milestones and Roadmap Self-Check; aligned with financial assumptions and Use Of Funds; future unknowns remain `待补充`): [`roadmap.md`](./examples/roadmap.md)
 
 **注意：所有示例内容均为虚构，仅用于演示 skill 使用方法。**
 
@@ -205,6 +206,7 @@ business-plan-skill/
     ├── competitor-analysis.md
     ├── market-sizing.md
     ├── pitch-deck-outline.md
+    ├── roadmap.md
     └── team-and-competitive-advantage.md
 ```
 

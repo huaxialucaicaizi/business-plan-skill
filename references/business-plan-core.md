@@ -253,6 +253,24 @@ Business model table:
 | 6-12 months | Productization and scale | `[SaaS launch, repeatable delivery, retention]` |
 | 12-18 months | Regional or vertical expansion | `[new market, financing readiness, partnerships]` |
 
+### Filling Guidance / 填写注意
+
+- Make every milestone concrete and checkable: state **what** will be delivered, **by when** (a stage or date supplied by the user), and **how it will be measured**. / 每个里程碑都应具体且可核验：写清交付**什么**、在**何时**完成（用户提供的阶段或日期），以及**如何衡量**。
+- Align the first paying-customer milestone and later customer/revenue milestones with section 10 `Key Assumptions / 关键假设表` and per-stream revenue derivation. For example, if Y1 revenue starts in M4, the roadmap must not claim paid users in M1–M3. / 首次出现付费客户及后续客户 / 收入里程碑必须与第 10 节关键假设表和分收入推导一致；例如 Y1 收入从 M4 开始，路线图就不得在 M1–M3 声称已有付费用户。
+- Match actions to `Use Of Funds / 资金用途`: product, acquisition, operations, and compliance work should be supportable by the corresponding budget. Do not add an unfunded expansion plan without explaining the resource gap. / 关键行动应与资金用途相匹配：产品、获客、运营、合规等工作要有相应预算支持；扩张计划若尚无资金，应说明资源缺口。
+- Do not invent calendar dates, partner/customer names, or metrics. Use `待补充` for unknowns. Relative stages such as `0–3 months` are acceptable only when they reflect the user's planning horizon. / 不得编造具体日期、合作方 / 客户名称或指标；未知项写 `待补充`。`0–3 个月` 等相对阶段也必须符合用户提供的规划周期。
+- Keep sequencing realistic for the stated team and resources: validate before scaling, limit parallel launches, and move uncertain partnerships or markets into later stages. / 阶段安排应符合团队和资源能力：先验证再扩张，避免同时启动过多事项，将不确定的合作或新市场放到后续阶段。
+- Describe future work as a **plan, target, or assumption**, not as an achievement. Completed milestones require evidence; otherwise use future-tense wording and label assumed metrics. / 未来事项必须写成**计划、目标或假设**，不得写成既有成绩；已完成里程碑需有证据，否则使用将来时并标注假设指标。
+
+### Roadmap Self-Check / 路线图自检清单
+
+- [ ] Each milestone states what, by when, and how success will be measured. / 每个里程碑都写清做什么、何时完成、如何衡量。
+- [ ] The first paid-user milestone and all 0–12 month customer/revenue targets match section 10 Key Assumptions and revenue derivation. / 首次付费及 0–12 个月客户 / 收入目标与第 10 节关键假设和收入推导一致。
+- [ ] Roadmap actions are supported by the Use Of Funds allocation, or an explicit resource gap is shown. / 路线图行动有资金用途支持，或已明确写出资源缺口。
+- [ ] Unknown dates, names, partners, customers, and metrics are `待补充`, not invented. / 未知日期、名称、合作方、客户和指标均写 `待补充`，没有编造。
+- [ ] The sequence is realistic for the stated team: validation precedes scaling and later-stage expansion is not overloaded. / 阶段顺序符合团队能力：先验证再扩张，后期扩张事项不过载。
+- [ ] Future milestones are written as plans/targets/assumptions rather than completed achievements. / 未来里程碑写成计划 / 目标 / 假设，而不是已完成成绩。
+
 ## 10. Financial Plan
 
 Financial section should include:
