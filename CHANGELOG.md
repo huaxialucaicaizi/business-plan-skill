@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- 新增虚构示例 `examples/target-customers-and-pain-point.md`：以「智汇学伴」演示填写目标客户细分表、痛点陈述、未核实主张改写对照表及目标客户与痛点自检；只复用仓库已有示例事实与数字，预算 / 痛点成本标注来源类型或 `待补充`，痛点主张指向想法验证或标 `待验证`，主楔子与 SAM / 付费客户一致；`examples/README.md` 与 README 增加链接和文件树条目
+- Added fictional example `examples/target-customers-and-pain-point.md` demonstrating a filled-in segment table, pain statement, before/after claim-softening table, and Target Customers And Pain Point Self-Check for StudyPal AI; reuses only facts already present in other examples, labels budget / pain-cost with source type or `待补充`, cites Validation Evidence or marks claims `待验证`, and keeps the primary wedge aligned with SAM and the paying customer; linked from `examples/README.md` and README, including the file tree
+- `references/business-plan-core.md` 第 2–3 节新增双语填写注意与「Target Customers And Pain Point Self-Check / 目标客户与痛点自检清单」：只选一个主楔子，用可观察特征描述细分，预算与痛点成本须标来源类型且不得编造，痛点主张指向想法验证或标 `待验证`，主细分须与第 5 节 SAM / SOM 及第 8 节付费客户一致，「为什么是现在」不得引用编造统计或报告
+- `references/business-plan-core.md` sections 2–3: added bilingual filling guidance and a Target Customers And Pain Point Self-Check requiring one primary wedge, observable segment traits, source-labeled budget and pain-cost figures, Validation Evidence or `待验证` for pain claims, consistency with section 5 SAM/SOM and section 8 paying customer, and no invented why-now statistics or reports
+- `SKILL.md` 的 What To Read 与交付前总自检新增目标客户 / 痛点项：使用第 2–3 节模板和自检，并核对预算标注、验证引用与主楔子口径
+- `SKILL.md` What To Read and Final Delivery Check: added a target-customers / pain-point item requiring the sections 2–3 template and self-check, with consistency checks on budget labels, validation citations, and primary-wedge alignment
 - 新增虚构示例 `examples/roadmap.md`：以「智汇学伴」演示填写 18 个月可核验里程碑及路线图自检；付费起点与 Y1 客户 / 收入目标复用财务推导，行动与资金用途对齐，12–18 个月未知项保留 `待补充`，未来事项明确写成计划；`examples/README.md` 与 README 增加链接和文件树条目
 - Added fictional example `examples/roadmap.md` demonstrating checkable 18-month milestones and the Roadmap Self-Check for StudyPal AI; paid timing and Y1 customer/revenue targets reuse the financial derivation, actions align with Use Of Funds, 12–18 month unknowns remain `待补充`, and future work is explicitly stated as plans; linked from `examples/README.md` and README, including the file tree
 - `references/business-plan-core.md` 第 9 节新增双语路线图填写注意与「Roadmap Self-Check / 路线图自检清单」：里程碑须写清做什么、何时完成、如何衡量，并与第 10 节关键假设 / 收入推导及资金用途一致；禁止编造日期、合作方、客户或指标，未来计划不得写成既有成绩
