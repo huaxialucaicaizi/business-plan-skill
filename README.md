@@ -144,6 +144,7 @@ See the [`examples/`](./examples/) directory for fictional project sample output
 - **竞品分析填写示例** / Competitor analysis (filled-in four-type framing table, differentiation claim, claim-softening table, Competitor Self-Check; public names as category representatives only): [`competitor-analysis.md`](./examples/competitor-analysis.md)
 - **商业模式填写示例** / Business model (filled-in revenue-type table and Business Model Self-Check; Y1 includes monthly subscription only, while unpriced annual / group / B2B items remain `待补充`): [`business-model.md`](./examples/business-model.md)
 - **路线图填写示例** / Roadmap (filled-in 18-month milestones and Roadmap Self-Check; aligned with financial assumptions and Use Of Funds; future unknowns remain `待补充`): [`roadmap.md`](./examples/roadmap.md)
+- **目标客户与痛点填写示例** / Target customers and pain point (filled-in segment table, pain statement, claim-softening table, and combined Self-Check; reuses existing example facts only): [`target-customers-and-pain-point.md`](./examples/target-customers-and-pain-point.md)
 
 **注意：所有示例内容均为虚构，仅用于演示 skill 使用方法。**
 
@@ -207,6 +208,7 @@ business-plan-skill/
     ├── market-sizing.md
     ├── pitch-deck-outline.md
     ├── roadmap.md
+    ├── target-customers-and-pain-point.md
     └── team-and-competitive-advantage.md
 ```
 

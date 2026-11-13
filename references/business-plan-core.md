@@ -31,6 +31,13 @@ Segment target customers by value and urgency:
 
 Avoid describing everyone as the customer. Pick one primary wedge.
 
+### Filling Guidance / 填写注意
+
+- Pick **one primary wedge** segment. Secondary or partner segments may stay in the table, but the plan must name a single primary customer. / 只选 **一个主切入细分**；次要或伙伴细分可留在表中，但计划书必须写明唯一的主要客户。
+- Describe segments by **observable traits** (workflow, buying role, geography, product fit, payment channel), not demographics alone. / 用**可观察特征**描述细分（工作流、付费角色、地理、产品匹配、支付渠道），不要只写人口统计标签。
+- Every Budget / Willingness To Pay figure must carry Source Type `Actual` / 实际, `Estimate` / 估算, `Assumption` / 假设, or `待补充` (same labels as section 10 `Key Assumptions / 关键假设表`). Do not invent budgets or prices. / 每个预算 / 付费意愿数字都必须标注来源类型，口径与第 10 节关键假设表相同；不得编造预算或价格。
+- Keep the primary segment consistent with Market Sizing SAM / SOM (section 5) and with the paying customer / core revenue type in Business Model (section 8). If school, group, or B2B plans are unpriced, do not treat them as the primary paying wedge. / 主要细分须与第 5 节市场规模 SAM / SOM，以及第 8 节商业模式中的付费客户 / 核心收入类型一致；学校、团体或 B 端尚未定价时，不得当作主付费楔子。
+
 ## 3. Pain Point
 
 A strong pain-point section should include:
@@ -43,6 +50,23 @@ A strong pain-point section should include:
 Pain statement template:
 
 > `[Target customer]` already has `[existing resources/tools]`, but still struggles with `[specific workflow problem]`. The result is `[cost: time, money, conversion, risk, missed growth]`. Existing solutions such as `[alternatives]` mainly solve `[partial problem]`, but do not address `[missing workflow/result]`.
+
+### Filling Guidance / 填写注意
+
+- Pain cost (time and/or money) must carry Source Type `Actual` / 实际, `Estimate` / 估算, `Assumption` / 假设, or `待补充`. Do not invent hours saved, monthly spend, or conversion loss. / 痛点成本（时间与 / 或金钱）必须标注来源类型；不得编造省下的小时数、月支出或转化损失。
+- Pain claims should point to Validation Evidence (section 6) when interviews or ad tests exist; otherwise mark the claim `待验证`. / 痛点主张若已有访谈或广告测试，应指向第 6 节想法验证；否则标为 `待验证`。
+- "Why now" must not cite invented statistics, rankings, or report titles/URLs. Use a labeled assumption, a user-supplied source, or `待补充`. / 「为什么是现在」不得引用编造的统计、排名或报告名 / 网址；使用已标注的假设、用户提供的来源，或写 `待补充`。
+- Keep the pain statement's target customer identical to the primary wedge in section 2. / 痛点陈述中的目标客户必须与第 2 节主切入细分一致。
+
+### Target Customers And Pain Point Self-Check / 目标客户与痛点自检清单
+
+- [ ] One primary wedge segment is named; the plan does not treat "everyone" as the customer. / 已写明唯一主切入细分，没有把「所有人」都当成客户。
+- [ ] Segments are described with observable traits, not demographics alone. / 细分描述含可观察特征，不只是人口统计。
+- [ ] Every Budget / Willingness To Pay figure has Source Type `Actual` / `Estimate` / `Assumption` / `待补充`; no invented budgets. / 每个预算 / 付费意愿数字都标注了来源类型；没有编造预算。
+- [ ] Pain cost (time/money) is labeled with Source Type or is `待补充`. / 痛点成本（时间 / 金钱）已标注来源类型，或写 `待补充`。
+- [ ] Pain claims cite Validation Evidence (section 6) or are marked `待验证`. / 痛点主张已指向第 6 节想法验证，或标为 `待验证`。
+- [ ] Primary segment matches Market Sizing SAM / SOM (section 5) and the paying customer in Business Model (section 8). / 主要细分与第 5 节 SAM / SOM 及第 8 节付费客户一致。
+- [ ] "Why now" does not cite invented statistics or reports. / 「为什么是现在」未引用编造的统计或报告。
 
 ## 4. Solution And Product Workflow
 
