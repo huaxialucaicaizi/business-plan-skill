@@ -46,6 +46,8 @@ For roadmaps (路线图), use section 9 and run the `Roadmap Self-Check / 路线
 
 For target customers and pain points (目标客户、痛点), use sections 2–3 and run the `Target Customers And Pain Point Self-Check / 目标客户与痛点自检清单`; pick one primary wedge, label budget and pain-cost figures with source type or `待补充`, cite Validation Evidence or mark claims `待验证`, and keep the primary segment consistent with Market Sizing SAM/SOM and the paying customer in Business Model.
 
+For solution and product workflow (解决方案、产品流程), use section 4 and run the `Solution And Product Workflow Self-Check / 解决方案与产品流程自检清单`; map each solution point to a section 3 pain, describe a user workflow rather than a feature dump, separate MVP-built from planned items, and keep AI / technical claims demoable or marked `待验证` / `待补充`.
+
 ## Default Workflow
 
 1. Identify the target audience: investor, incubator reviewer, government park, partner, customer, or internal team.
@@ -136,6 +138,7 @@ Run this before handing any business-plan material to the user. It consolidates 
 - [ ] Business model content: the `Business Model Self-Check / 商业模式自检清单` in section 8 of `references/business-plan-core.md` has been run; unpriced revenue is not included in current claims or Y1 figures.
 - [ ] Roadmap content: the `Roadmap Self-Check / 路线图自检清单` in section 9 of `references/business-plan-core.md` has been run; milestones match section 10 assumptions / revenue derivation and Use Of Funds, and future plans are not presented as achievements.
 - [ ] Target customers / pain point content: the `Target Customers And Pain Point Self-Check / 目标客户与痛点自检清单` in sections 2–3 of `references/business-plan-core.md` has been run; one primary wedge is named, budget and pain-cost figures are labeled or `待补充`, and "why now" does not cite invented statistics or reports.
+- [ ] Solution / product workflow content: the `Solution And Product Workflow Self-Check / 解决方案与产品流程自检清单` in section 4 of `references/business-plan-core.md` has been run; solution points map to section 3 pains, MVP vs planned items are labeled, and capabilities match section 8 pay points and section 9 roadmap.
 - [ ] AI products: `Validation Evidence / 想法验证` is included, or its absence is stated honestly — no invented traction.
 - [ ] Public or GitHub-ready outputs: private facts removed and replaced with placeholders.
 

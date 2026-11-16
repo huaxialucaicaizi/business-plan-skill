@@ -87,6 +87,22 @@ Product module table:
 | `[Module 2]` | `[problem]` | `[function]` | `[artifact/result]` |
 | `[Module 3]` | `[problem]` | `[function]` | `[artifact/result]` |
 
+### Filling Guidance / 填写注意
+
+- Map every solution point to a pain from section 3 (`Pain Point`). Do not list features that do not close a named workflow break. / 方案必须**逐条对应**第 3 节痛点；不要堆砌未对应断裂点的功能。
+- Describe the product as a **user step-by-step workflow** (input → processing → output / result), not as a feature dump. Prefer the recommended flow above or an equivalent sequence the user can walk through. / 用「用户一步步怎么用」写流程（输入 → 处理 → 输出 / 结果），不要只列功能清单；优先采用上方推荐流程或同等可走通的步骤。
+- Separate **shipped in MVP / already built** from **planned**. Label each module or step clearly (e.g. `MVP 已有` vs `计划中`). Do not present a roadmap item as a current capability. / 区分「已做出来（MVP 已有）」与「计划中」，并在模块 / 步骤上明确标注；不得把路线图事项写成当前能力。
+- For AI or technical claims, write only what is **demoable or checkable** (prototype behavior, interview / trial results, audit findings). Do not use unverified slogans such as 「行业领先」 or 「准确率 99%」. Without evidence, mark `待验证` or `待补充`. / AI / 技术能力只写可演示或可核验的内容；禁止未核实口号；无证据则标 `待验证` / `待补充`。
+- Keep the solution consistent with Business Model pay points (section 8) and Roadmap stages (section 9): free entry vs paid unlock, and when capabilities ship, must match those sections. / 方案须与第 8 节付费点、第 9 节路线图一致：免费入口与付费解锁、能力上线时点都要对齐。
+
+### Solution And Product Workflow Self-Check / 解决方案与产品流程自检清单
+
+- [ ] Every solution point maps to a named pain / workflow break in section 3. / 每条方案都对应第 3 节已写明的痛点或工作流断裂点。
+- [ ] The product is described as a user workflow (input → processing → output / result), not only a feature list. / 产品写成用户使用流程，而不只是功能列表。
+- [ ] MVP / already-built items are clearly separated from planned items. / 已明确区分 MVP 已有与计划中事项。
+- [ ] AI / technical claims are demoable or checkable, or marked `待验证` / `待补充`; no unverified 「行业领先」 / 「准确率 99%」-style claims. / AI / 技术主张可演示或可核验，或已标 `待验证` / `待补充`；没有未核实夸大说法。
+- [ ] Solution capabilities and unlock timing match Business Model pay points (section 8) and Roadmap (section 9). / 方案能力与解锁时点与第 8 节付费点、第 9 节路线图一致。
+
 ## 5. Market Analysis
 
 Market section structure:
