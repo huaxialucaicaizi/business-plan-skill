@@ -146,6 +146,7 @@ See the [`examples/`](./examples/) directory for fictional project sample output
 - **路线图填写示例** / Roadmap (filled-in 18-month milestones and Roadmap Self-Check; aligned with financial assumptions and Use Of Funds; future unknowns remain `待补充`): [`roadmap.md`](./examples/roadmap.md)
 - **目标客户与痛点填写示例** / Target customers and pain point (filled-in segment table, pain statement, claim-softening table, and combined Self-Check; reuses existing example facts only): [`target-customers-and-pain-point.md`](./examples/target-customers-and-pain-point.md)
 - **解决方案与产品流程填写示例** / Solution and product workflow (filled-in pain→solution map, step-by-step user workflow, shipped vs planned table, claim-softening table, and Solution And Product Workflow Self-Check; reuses existing example facts only): [`solution-and-product-workflow.md`](./examples/solution-and-product-workflow.md)
+- **项目定位填写示例** / Positioning (filled-in one-sentence positioning, alternatives mapping, claim-softening table, and Positioning Self-Check; reuses existing example facts only): [`positioning.md`](./examples/positioning.md)
 
 **注意：所有示例内容均为虚构，仅用于演示 skill 使用方法。**
 
@@ -208,6 +209,7 @@ business-plan-skill/
     ├── competitor-analysis.md
     ├── market-sizing.md
     ├── pitch-deck-outline.md
+    ├── positioning.md
     ├── roadmap.md
     ├── solution-and-product-workflow.md
     ├── target-customers-and-pain-point.md

@@ -19,6 +19,21 @@ Positioning should answer:
 - What does the product do differently?
 - What measurable outcome does it produce?
 
+### Filling Guidance / 填写注意
+
+- Write **one sentence** that covers four parts: **who** (为谁) / **what problem** (解决什么问题) / **how** (怎么解决) / **difference vs alternatives** (与替代方案差异). Prefer the English / Chinese formulas above; do not expand into a feature dump. / 用**一句话**写清四要素：**为谁** / **解决什么问题** / **怎么解决** / **与替代方案差异**；优先采用上方中英公式，不要扩写成功能清单。
+- Keep Positioning consistent with Target Customers and Pain Point (sections 2–3), Solution And Product Workflow (section 4), and Competitor Analysis (section 7): same primary customer, same pain, same core workflow, same differentiation. If those sections change, rewrite this sentence. / 项目定位须与第 2–3 节目标客户与痛点、第 4 节解决方案与产品流程、第 7 节竞品分析口径一致：同一主客户、同一痛点、同一核心工作流、同一差异化；上述章节若改写，本句须同步改写。
+- Do **not** use unverified slogans such as 「行业第一」「颠覆」「领先」 without evidence. Name a concrete workflow or result instead. / **禁止**在无证据时使用「行业第一」「颠覆」「领先」等未核实口号；改为点名具体工作流或结果。
+- Outcomes, rankings, scale claims, and comparison metrics that lack proof must be marked `待补充` or `待验证`. Do not invent traction or superiority. / 缺少证据的结果、排名、规模主张或对比指标必须标 `待补充` / `待验证`；不得编造 traction 或优越性。
+
+### Positioning Self-Check / 项目定位自检清单
+
+- [ ] The one-sentence positioning covers who / what problem / how / difference vs alternatives. / 一句话定位已覆盖为谁 / 解决什么问题 / 怎么解决 / 与替代方案差异。
+- [ ] Positioning matches the primary customer and pain in sections 2–3. / 定位与第 2–3 节主客户与痛点一致。
+- [ ] Positioning matches the core product workflow in section 4 (not a separate feature list). / 定位与第 4 节核心产品流程一致，不是另一套功能说法。
+- [ ] Differentiation matches Competitor Analysis (section 7); alternatives named here appear there (or vice versa). / 差异化与第 7 节竞品分析一致；此处点名的替代方案与竞品表能对上。
+- [ ] No unverified 「行业第一」 / 「颠覆」 / 「领先」-style claims; unproven outcomes are `待补充` / `待验证`. / 没有未核实的「行业第一」「颠覆」「领先」类说法；未证实结果已标 `待补充` / `待验证`。
+
 ## 2. Target Customers
 
 Segment target customers by value and urgency:
